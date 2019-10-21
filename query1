@@ -1,0 +1,13 @@
+PREFIX ssn: <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpedia: <http://fr.dbpedia.org/page/>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+Select ?Country (max(?Cancer_rate) AS ?max) 
+WHERE
+{
+?Country dbpedia:Cancer ?Cancer_rate
+}
+GROUP BY ?Country
+ORDER BY DESC(?max)
+LIMIT 1
