@@ -58,7 +58,7 @@ CONSTRUCT {
 	BIND (xsd:decimal(?factorname11) AS ?Tuberculosis)
 	BIND (xsd:decimal(?factorname12) AS ?Kidney_disease)
 	BIND (xsd:decimal(?factorname13) AS ?Gastrointestinal_disease)
-	BIND (xsd:decimal(?factorname14) AS ?HIV_AIDS)
+	BIND (xsd:decimal(?factorname14) AS ?HIV)
 	BIND (xsd:decimal(?factorname15) AS ?Suicide)
 	BIND (xsd:decimal(?factorname16) AS ?Malaria)
 	BIND (xsd:decimal(?factorname17) AS ?Homicide)
