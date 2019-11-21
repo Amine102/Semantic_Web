@@ -1,0 +1,87 @@
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpedia: <http://fr.dbpedia.org/page/>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+CONSTRUCT {
+
+	 ?URI    owl:sameAs ?country;
+	  		 dbpedia:Year ?Year;
+			 dbpedia:Life_expectancy ?Life_expectancy;
+			 dbpedia:Total_fertility_rate ?Total_fertility_rate;
+			 dbpedia:Cardiovascular_disease ?Cardiovascular_disease;
+			 dbpedia:Cancer ?Cancer;
+			 dbpedia:Respiratory_disease ?Respiratory_disease;
+			 dbpedia:Diabetes_mellitus ?Diabetes;
+			 dbpedia:Dementia ?Dementia;
+			 dbpedia:Respiratory_tract_infection ?Respiratory_tract_infection;
+			 dbpedia:Infant_mortality ?Infant_mortality;
+			 dbpedia:Lower_respiratory_infections ?Lower_respiratory_infections;
+			 dbpedia:Diarrhea ?Diarrhea;
+			 dbpedia:Traffic_collision ?Traffic_collision;
+			 dbpedia:Liver ?Liver;
+			 dbpedia:Tuberculosis ?Tuberculosis;
+			 dbpedia:Kidney_disease ?Kidney_disease;
+			 dbpedia:Gastrointestinal_disease ?Gastrointestinal_disease;
+			 dbpedia:HIV ?HIV;
+			 dbpedia:Suicide ?Suicide;
+			 dbpedia:Malaria ?Malaria;
+			 dbpedia:Homicide ?Homicide;
+			 dbpedia:Malnutrition ?Malnutrition;
+			 dbpedia:Meningitis ?Meningitis;
+			 dbpedia:Protein-energy_malnutrition ?Protein_energy_malnutrition;
+			 dbpedia:Drowning ?Drowning;
+			 dbpedia:Maternal_death ?Maternal_death;
+			 dbpedia:Parkinsonism ?Parkinsonism;
+			 dbpedia:Alcohol ?Alcohol;
+			 dbpedia:Drug ?Drug;
+			 dbpedia:Hepatitis ?Hepatitis;
+			 dbpedia:Fire ?Fire;
+			 dbpedia:Heat ?Heat;
+			 dbpedia:Natural_disaster ?Natural_disaster;
+			 dbpedia:Conflict ?Conflict;
+			 dbpedia:Terrorism ?Terrorism.
+		  
+	
+	  }
+  FROM <file:dataset.csv#delimiter=%3B;encoding=utf-8>
+  WHERE {
+
+	BIND( URI(CONCAT('http://dbpedia.org/page/',?country, '/',?Year)) AS ?URI)
+	BIND( STRDT(?life_expectancy, xsd:decimal) AS ?Life_expectancy)
+	BIND( STRDT(?total_fertility_rate, xsd:decimal) AS ?Total_fertility_rate)
+	BIND( STRDT(?factorname1, xsd:decimal) AS ?Cardiovascular_disease)
+	BIND( STRDT(?factorname2, xsd:decimal) AS ?Cancer)
+	BIND( STRDT(?factorname32, xsd:decimal) AS ?Lower_respiratory_infections)
+	BIND( STRDT(?factorname4, xsd:decimal) AS ?Diabetes_mellitus)
+	BIND( STRDT(?factorname5, xsd:decimal) AS ?Dementia)
+	BIND( STRDT(?factorname6, xsd:decimal) AS ?Respiratory_tract_infection)
+	BIND( STRDT(?factorname7, xsd:decimal) AS ?Infant_mortality)
+	BIND( STRDT(?factorname8, xsd:decimal) AS ?Diarrhea)
+	BIND( STRDT(?factorname9, xsd:decimal) AS ?Traffic_collision)
+	BIND( STRDT(?factorname10, xsd:decimal) AS ?Liver)
+	BIND( STRDT(?factorname11, xsd:decimal) AS ?Tuberculosis)
+	BIND( STRDT(?factorname12, xsd:decimal) AS ?Kidney_disease)
+	BIND( STRDT(?factorname13, xsd:decimal) AS ?Gastrointestinal_disease)
+	BIND( STRDT(?factorname14, xsd:decimal) AS ?HIV_AIDS)
+	BIND( STRDT(?factorname15, xsd:decimal) AS ?Suicide)
+	BIND( STRDT(?factorname16, xsd:decimal) AS ?Malaria)
+	BIND( STRDT(?factorname17, xsd:decimal) AS ?Homicide)
+	BIND( STRDT(?factorname18, xsd:decimal) AS ?Malnutrition)
+	BIND( STRDT(?factorname19, xsd:decimal) AS ?Meningitis)
+	BIND( STRDT(?factorname20, xsd:decimal) AS ?Protein_energy_malnutrition)
+	BIND( STRDT(?factorname21, xsd:decimal) AS ?Drowning)
+	BIND( STRDT(?factorname22, xsd:decimal) AS ?Maternal_death)
+	BIND( STRDT(?factorname23, xsd:decimal) AS ?Parkinsons_disease)
+	BIND( STRDT(?factorname24, xsd:decimal) AS ?Alcohol)
+	BIND( STRDT(?factorname25, xsd:decimal) AS ?Drug)
+	BIND( STRDT(?factorname26, xsd:decimal) AS ?Hepatitis)
+	BIND( STRDT(?factorname27, xsd:decimal) AS ?Fire)
+	BIND( STRDT(?factorname28, xsd:decimal) AS ?Heat)
+	BIND( STRDT(?factorname29, xsd:decimal) AS ?Natural_disaster)
+	BIND( STRDT(?factorname30, xsd:decimal) AS ?Conflict)
+	BIND( STRDT(?factorname31, xsd:decimal) AS ?Terrorism)
+	
+	
+	
+}
