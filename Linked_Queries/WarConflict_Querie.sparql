@@ -1,0 +1,30 @@
+PREFIX dbpedia: <http://fr.dbpedia.org/page/>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX hto:  <http://vcharpenay.github.io/hto/hto.xml#Temperature>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/location>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/E50_Date>
+PREFIX schema: <https://schema.org/GeoCoordinates>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+#PREFIX munc: <http://ns.inria.fr/munc/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?MilitaryConflict (SAMPLE(?Participants) AS ?participants) (SAMPLE(?Location) AS ?location)(max(?conflict) as ?mortality_conflict)
+WHERE
+ { 
+  ?MilitaryConflict
+		     dbo:combattant ?Participants;
+		     dbo:country ?Location.
+  ?conflict_mortality owl:sameAs ?Location;
+  					  dbpedia:Conflict ?conflict.
+ }
+
+GROUP BY ?MilitaryConflict ?MAXconflict
+ORDER BY DESC(?mortality_conflict)
+LIMIT 40
+
+
+
