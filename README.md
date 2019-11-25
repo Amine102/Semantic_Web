@@ -1,4 +1,4 @@
-# Semantic_Web
+# Semantic_Web (Global Causes of Mortality)
 **Version 1.0.0**
 
   - Projet universitaire 2019-2020 de web Semantique sur les datasets SPARQL;
