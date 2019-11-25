@@ -20,30 +20,30 @@
 	dcterms:license		<http://www.opendatacommons.org/licences/pddl/>;
 
 
-:Liaison_GlobalMortality_Temperature	a 	void:Linkset;
-	void:target								:GlobalMortality;
-	void:target								:;
+:Liaison_GlobalMortality_Temperature	a 			void:Linkset;
+	void:target						:GlobalMortality;
+	void:target						:Temperature;
 	void:linkedPredicate					owl:sameAs;
 
-:Liaison_GlobalMortality_Demographie 	a 	void:LinkSet;
-	void:target								:GlobalMortality;
-	void:target								:;
+:Liaison_GlobalMortality_Demographie 	a 			void:LinkSet;
+	void:target						:GlobalMortality;
+	void:target						:EvolutionDeLaPopulationMondiale;
 	void:linkedPredicate					owl:sameAs;
 
-:Liaison_GlobalMortality_dataWar		a 	void:LinkSet;
-	void:target								:GlobalMortality;
-	void:target								:;
+:Liaison_GlobalMortality_dataWar	a 			void:LinkSet;
+	void:target						:GlobalMortality;
+	void:target						:WarConflict;
 	void:linkedPredicate					owl:sameAs;
 
-:Boulahmel_Amine	a 						foaf:Person;
-					rdfs:label				"Boulahmel Amine";
-					foaf:mabox				<amine.boulahmel@etu.univ-nantes.fr>;
+:Boulahmel_Amine			a 			foaf:Person;
+					rdfs:label		"Boulahmel Amine";
+					foaf:mabox		<amine.boulahmel@etu.univ-nantes.fr>;
 
-:Haiti_Aya			a 						foaf:Person;
-					rdfs:label				"Haiti Aya";
-					foaf:mabox				<aya.haiti@etu.univ-nantes.fr>;
+:Haiti_Aya				a 			foaf:Person;
+					rdfs:label		"Haiti Aya";
+					foaf:mabox		<aya.haiti@etu.univ-nantes.fr>;
 	
 
-:Jandu_Harry		a 						foaf:Person;
-					rdfs:label				"Jandu Harry";
-					foaf:mabox				<harry.jandu@etu.univ-nantes.fr>;
+:Jandu_Harry				a 			foaf:Person;
+					rdfs:label		"Jandu Harry";
+					foaf:mabox		<harry.jandu@etu.univ-nantes.fr>;
