@@ -16,10 +16,11 @@ SELECT ?MilitaryConflict (SAMPLE(?Participants) AS ?participants) (SAMPLE(?Locat
 WHERE
  { 
   ?MilitaryConflict
-		     dbo:combattant ?Participants;
-		     dbo:country ?Location.
-  ?conflict_mortality owl:sameAs ?Location;
-  					  dbpedia:Conflict ?conflict.
+			dbo:combattant ?Participants;
+			dbo:country ?Location.
+  ?conflict_mortality 
+  			owl:sameAs ?Location;
+  			dbpedia:Conflict ?conflict.
  }
 
 GROUP BY ?MilitaryConflict ?MAXconflict
