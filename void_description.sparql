@@ -6,18 +6,25 @@
 
 :GlobalMortality 	a 	void:Dataset;
 	dcterms:title		"Global Causes of Mortality";
-	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 1990 et 2015";
+	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 					1990 et 2015";
 	dcterms:creator		:Michael_Pawlus;
 	dcterms:create		"2018-05-15"^^xsd:date ;
 	dcterms:modified 	"2019-10-21"^^xsd:date ;
 	dcterms:publisher	:Amine_Boulahmel;
 	dcterms:publisher	:Aya_Haiti;
 	dcterms:publisher	:Harry_Jandu;
-	dcterms:source		<https://www.kaggle.com/michaelpawlus/global-causes-of-mortality/download>;
+	dcterms:source		<https://www.kaggle.com/michaelpawlus/global-causes-of-mortality>;
+	dcterms:license		<https://www.creativecommons.org/licences/by-sa/4.0/>;
+	dcterms:subject		<http://dbpedia.org/page/Life_expectancy>;
+	dcterms:subject 	<http://dbpedia.org/page/Mortality_rate>
 
+	void:sparqlEndpoint	<http://dbpedia.org/page/>
+ 	void:exampleResource 	<http://dbpedia.org/page/Afghanistan/1990/Conflict> ; 
+    	void:exampleResource 	<http://dbpedia.org/page/France/2003/Life_expectancy> ;
+    	void:exampleResource 	<http://dbpedia.org/page/North_America/2015/Cardiovascular_disease> ;
 	void:feature		<http://www.w3.org/ns/formats/RDF_XML>;
-	void:triples		129129;
-	dcterms:license		<http://www.opendatacommons.org/licences/pddl/>;
+	void:triples		"129129"^^xsd:integer ;
+	
 
 
 :Liaison_GlobalMortality_Temperature	a 			void:Linkset;
