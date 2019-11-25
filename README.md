@@ -7,14 +7,14 @@
   - lien du dataset Kaggle: <https://www.kaggle.com/michaelpawlus/global-causes-of-mortality>;
   - lien des slides: <https://slides.com/ayahaiti/deck#/>.
 
-##Utilisation
+## Utilisation
 
   - Creation des fichiers .ttl ou .nt grâce au commande donnée dans le fichier /TARQL;
   - Ouvrez un terminal et executez les commandes suivantes: 
   - bash ntriples.sh 
   - bash .sh
   
-##Test des requêtes
+## Test des requêtes
 
   - Dirigez-vous dans le fichier ou se trouve apache-jena;
   - tapez dans le terminal la commande suivante: ./fuseki-server
@@ -23,7 +23,7 @@
   - Donner un nom et charger le fichier turtle (.ttl) generer par le fichier mapping en cliquant sur upload dataset;
   - Revenez dans l'onglet Datasets et testez les requêtes en copiant/collant le contenu ou réécrire une nouvelle puis en cliquant sur le bouton Play se trouvant en haut à droite.
 
-##Liaison des données
+## Liaison des données
 
   - charger les nouvelles datasets se trouvant dans le fichiers /TTL_FILES
   - Execution des requêtes se trouvant dans le fichier /LINKED_QUERIES
