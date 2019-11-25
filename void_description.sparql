@@ -7,12 +7,12 @@
 :GlobalMortality 	a 	void:Dataset;
 	dcterms:title		"Global Causes of Mortality";
 	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 1990 et 2015";
-	dcterms:creator		:michaelpawlus;
+	dcterms:creator		:Michael_Pawlus;
 	dcterms:create		"2018-05-15"^^xsd:date ;
 	dcterms:modified 	"2019-10-21"^^xsd:date ;
-	dcterms:publisher	:Boulahmel_Amine;
-	dcterms:publisher	:Haiti_Aya;
-	dcterms:publisher	:Jandu_Harry;
+	dcterms:publisher	:Amine_Boulahmel;
+	dcterms:publisher	:Aya_Haiti;
+	dcterms:publisher	:Harry_Jandu;
 	dcterms:source		<https://www.kaggle.com/michaelpawlus/global-causes-of-mortality/download>;
 
 	void:feature		<http://www.w3.org/ns/formats/RDF_XML>;
@@ -35,15 +35,19 @@
 	void:target						:WarConflict;
 	void:linkedPredicate					owl:sameAs;
 
-:Boulahmel_Amine			a 			foaf:Person;
-					rdfs:label		"Boulahmel Amine";
-					foaf:mabox		<amine.boulahmel@etu.univ-nantes.fr>;
+:Michael_Pawlus				a			foaf:Person;
+					rdfs:label		"Micheal Pawlus";
+					foaf:mbox		<michael.pawlus@gmail.com>;	
+	
+:Amine_Boulahmel			a 			foaf:Person;
+					rdfs:label		"Amine Boulahmel ";
+					foaf:mbox		<amine.boulahmel@etu.univ-nantes.fr>;
 
-:Haiti_Aya				a 			foaf:Person;
-					rdfs:label		"Haiti Aya";
-					foaf:mabox		<aya.haiti@etu.univ-nantes.fr>;
+:Aya_Haiti 				a 			foaf:Person;
+					rdfs:label		"Aya Haiti ";
+					foaf:mbox		<aya.haiti@etu.univ-nantes.fr>;
 	
 
-:Jandu_Harry				a 			foaf:Person;
-					rdfs:label		"Jandu Harry";
-					foaf:mabox		<harry.jandu@etu.univ-nantes.fr>;
+:Harry_Jandu				a 			foaf:Person;
+					rdfs:label		"Harry Jandu";
+					foaf:mbox		<harry.jandu@etu.univ-nantes.fr>;
