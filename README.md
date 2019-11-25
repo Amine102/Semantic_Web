@@ -26,7 +26,7 @@
 ## Liaison des données
 
   - charger les nouvelles datasets se trouvant dans le fichiers /TTL_FILES
-  - Execution des requêtes se trouvant dans le fichier /LINKED_QUERIES
+  - Execution des requêtes se trouvant dans le fichier /Linked_Queries
   
 ## Contributors
 
