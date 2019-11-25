@@ -4,7 +4,7 @@
   - Projet universitaire 2019-2020 de web Semantique sur les datasets SPARQL;
   - Sujet: Global Causes of Mortality;
   - lien du googleDoc: <https://docs.google.com/document/d/1dBG-1cdKs59BGM9Qbfp-xvqpxYxkPYj1zKUxr_QZ4b0/edit>;
-  - lien du dataset Kaggle: <https://www.kaggle.com/michaelpawlus/global-causes-of-mortality/download>;
+  - lien du dataset Kaggle: <https://www.kaggle.com/michaelpawlus/global-causes-of-mortality>;
   - lien des slides: <https://slides.com/ayahaiti/deck#/>.
 
 ##Utilisation
