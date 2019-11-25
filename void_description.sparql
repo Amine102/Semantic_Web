@@ -6,7 +6,7 @@
 
 :GlobalMortality 	a 	void:Dataset;
 	dcterms:title		"Global Causes of Mortality";
-	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 					1990 et 2015";
+	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 1990 et 2015";
 	dcterms:creator		:Michael_Pawlus;
 	dcterms:create		"2018-05-15"^^xsd:date ;
 	dcterms:modified 	"2019-10-21"^^xsd:date ;
