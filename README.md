@@ -27,7 +27,7 @@
 ## Utilisation
 
   - Creation des fichiers .ttl ou .nt grâce aux commandes donnée dans le fichier /TARQL;
-  - Ouvrez un terminal et executez les commandes suivantes: bash ntriples.sh <ou> bash ntriples.sh
+  - Ouvrez un terminal et executez une des commandes suivantes: bash ntriples.sh OU bash ntriples.sh
   
 ## Test des requêtes
 
