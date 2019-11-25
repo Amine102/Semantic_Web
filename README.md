@@ -16,7 +16,8 @@
   - Créez un fichier grâce à la commande suivante: touch tarql
   - Modifiez les droits du fichier avec la commande suivante: chmod +x tarql
   - Modifiez le fichier en mettant la commande suivante: sh /Users/chemin-se-trouvant-tarql/tarql-1.2/bin/tarql $1 $2 $3
-  - Sauvegardez votre fichier.
+  - Sauvegardez votre fichier 
+  
   **Apache-jena**
   - Installez apache-jena (lien de téléchargement fournis en haut);
   - Ouvrez le fichier téléchargé
