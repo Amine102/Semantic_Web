@@ -9,7 +9,7 @@
   - Installation de Tarql: <https://github.com/tarql/tarql/releases>;
   - Installation de Apache-Jena: <>.
 
-## Preréquis
+## Prérequis
   **Tarql**
   - Installer tarql (lien de téléchargement fournis en haut);
   - Pour une utilisation plus simple de la commande tarql, allez dans le fichier ou se trouve les commandes unix (/usr/local/bin sur mac);
