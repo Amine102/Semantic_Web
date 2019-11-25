@@ -1,0 +1,49 @@
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>. 
+@prefix foaf: <https://xlmns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+:GlobalMortality 	a 	void:Dataset;
+	dcterms:title		"Global Causes of Mortality";
+	dcterms:description	"Donnée de Our World in Data avec des indicateurs de mortalité (taux de morts par pays) entre 1990 et 2015";
+	dcterms:creator		:michaelpawlus;
+	dcterms:create		"2018-05-15"^^xsd:date ;
+	dcterms:modified 	"2019-10-21"^^xsd:date ;
+	dcterms:publisher	:Boulahmel_Amine;
+	dcterms:publisher	:Haiti_Aya;
+	dcterms:publisher	:Jandu_Harry;
+	dcterms:source		<https://www.kaggle.com/michaelpawlus/global-causes-of-mortality/download>;
+
+	void:feature		<http://www.w3.org/ns/formats/RDF_XML>;
+	void:triples		129129;
+	dcterms:license		<http://www.opendatacommons.org/licences/pddl/>;
+
+
+:Liaison_GlobalMortality_Temperature	a 	void:Linkset;
+	void:target								:GlobalMortality;
+	void:target								:;
+	void:linkedPredicate					owl:sameAs;
+
+:Liaison_GlobalMortality_Demographie 	a 	void:LinkSet;
+	void:target								:GlobalMortality;
+	void:target								:;
+	void:linkedPredicate					owl:sameAs;
+
+:Liaison_GlobalMortality_dataWar		a 	void:LinkSet;
+	void:target								:GlobalMortality;
+	void:target								:;
+	void:linkedPredicate					owl:sameAs;
+
+:Boulahmel_Amine	a 						foaf:Person;
+					rdfs:label				"Boulahmel Amine";
+					foaf:mabox				<amine.boulahmel@etu.univ-nantes.fr>;
+
+:Haiti_Aya			a 						foaf:Person;
+					rdfs:label				"Haiti Aya";
+					foaf:mabox				<aya.haiti@etu.univ-nantes.fr>;
+	
+
+:Jandu_Harry		a 						foaf:Person;
+					rdfs:label				"Jandu Harry";
+					foaf:mabox				<harry.jandu@etu.univ-nantes.fr>;
