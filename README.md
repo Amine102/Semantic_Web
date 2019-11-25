@@ -12,7 +12,7 @@
   - Creation des fichiers .ttl ou .nt grâce au commande donnée dans le fichier /TARQL;
   - Ouvrez un terminal et executez les commandes suivantes: 
   - bash ntriples.sh 
-  - bash .sh
+  - bash turtle.sh
   
 ## Test des requêtes
 
