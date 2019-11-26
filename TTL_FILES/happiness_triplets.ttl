@@ -1,0 +1,2302 @@
+@prefix schema:  <http://schema.org/> .
+@prefix mo:  <http://my_onto.org/> .
+@prefix dbp:  <http://www.dbpedia.org/property/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Norway>
+        rdf:type                dbp:Country ;
+        dbp:name                "Norway" ;
+        dbp:rank                1 ;
+        mo:hasHappinessValue    "7.53700017929077" ;
+        mo:hasWhiskerHighValue  "7.59444482058287" ;
+        mo:hasWhiskerLowValue   "7.47955553799868" ;
+        mo:hasEconomyValue      "1.61646318435669" ;
+        mo:hasFamilyValue       "1.53352355957031" ;
+        mo:hasHealthValue       "0.796666502952576" ;
+        mo:hasFreedomValue      "0.635422587394714" ;
+        mo:hasGenerosityValue   "0.36201223731041" ;
+        mo:hasTrustValue        "0.315963834524155" ;
+        mo:hasDystopiaValue     "2.27702665328979" .
+
+<http://dbpedia.org/resource/Denmark>
+        rdf:type                dbp:Country ;
+        dbp:name                "Denmark" ;
+        dbp:rank                2 ;
+        mo:hasHappinessValue    "7.52199983596802" ;
+        mo:hasWhiskerHighValue  "7.58172806486487" ;
+        mo:hasWhiskerLowValue   "7.46227160707116" ;
+        mo:hasEconomyValue      "1.48238301277161" ;
+        mo:hasFamilyValue       "1.55112159252167" ;
+        mo:hasHealthValue       "0.792565524578094" ;
+        mo:hasFreedomValue      "0.626006722450256" ;
+        mo:hasGenerosityValue   "0.355280488729477" ;
+        mo:hasTrustValue        "0.40077006816864" ;
+        mo:hasDystopiaValue     "2.31370735168457" .
+
+<http://dbpedia.org/resource/Iceland>
+        rdf:type                dbp:Country ;
+        dbp:name                "Iceland" ;
+        dbp:rank                3 ;
+        mo:hasHappinessValue    "7.50400018692017" ;
+        mo:hasWhiskerHighValue  "7.62203047305346" ;
+        mo:hasWhiskerLowValue   "7.38596990078688" ;
+        mo:hasEconomyValue      "1.480633020401" ;
+        mo:hasFamilyValue       "1.6105740070343" ;
+        mo:hasHealthValue       "0.833552122116089" ;
+        mo:hasFreedomValue      "0.627162635326385" ;
+        mo:hasGenerosityValue   "0.475540220737457" ;
+        mo:hasTrustValue        "0.153526559472084" ;
+        mo:hasDystopiaValue     "2.32271528244019" .
+
+<http://dbpedia.org/resource/Switzerland>
+        rdf:type                dbp:Country ;
+        dbp:name                "Switzerland" ;
+        dbp:rank                4 ;
+        mo:hasHappinessValue    "7.49399995803833" ;
+        mo:hasWhiskerHighValue  "7.56177242040634" ;
+        mo:hasWhiskerLowValue   "7.42622749567032" ;
+        mo:hasEconomyValue      "1.56497955322266" ;
+        mo:hasFamilyValue       "1.51691174507141" ;
+        mo:hasHealthValue       "0.858131289482117" ;
+        mo:hasFreedomValue      "0.620070576667786" ;
+        mo:hasGenerosityValue   "0.290549278259277" ;
+        mo:hasTrustValue        "0.367007285356522" ;
+        mo:hasDystopiaValue     "2.2767162322998" .
+
+<http://dbpedia.org/resource/Finland>
+        rdf:type                dbp:Country ;
+        dbp:name                "Finland" ;
+        dbp:rank                5 ;
+        mo:hasHappinessValue    "7.4689998626709" ;
+        mo:hasWhiskerHighValue  "7.52754207581282" ;
+        mo:hasWhiskerLowValue   "7.41045764952898" ;
+        mo:hasEconomyValue      "1.44357192516327" ;
+        mo:hasFamilyValue       "1.5402467250824" ;
+        mo:hasHealthValue       "0.80915766954422" ;
+        mo:hasFreedomValue      "0.617950856685638" ;
+        mo:hasGenerosityValue   "0.24548277258873" ;
+        mo:hasTrustValue        "0.38261154294014" ;
+        mo:hasDystopiaValue     "2.4301815032959" .
+
+<http://dbpedia.org/resource/Netherlands>
+        rdf:type                dbp:Country ;
+        dbp:name                "Netherlands" ;
+        dbp:rank                6 ;
+        mo:hasHappinessValue    "7.3769998550415" ;
+        mo:hasWhiskerHighValue  "7.42742584124207" ;
+        mo:hasWhiskerLowValue   "7.32657386884093" ;
+        mo:hasEconomyValue      "1.50394463539124" ;
+        mo:hasFamilyValue       "1.42893922328949" ;
+        mo:hasHealthValue       "0.810696125030518" ;
+        mo:hasFreedomValue      "0.585384488105774" ;
+        mo:hasGenerosityValue   "0.470489829778671" ;
+        mo:hasTrustValue        "0.282661825418472" ;
+        mo:hasDystopiaValue     "2.29480409622192" .
+
+<http://dbpedia.org/resource/Canada>
+        rdf:type                dbp:Country ;
+        dbp:name                "Canada" ;
+        dbp:rank                7 ;
+        mo:hasHappinessValue    "7.31599998474121" ;
+        mo:hasWhiskerHighValue  "7.38440283536911" ;
+        mo:hasWhiskerLowValue   "7.24759713411331" ;
+        mo:hasEconomyValue      "1.47920441627502" ;
+        mo:hasFamilyValue       "1.48134899139404" ;
+        mo:hasHealthValue       "0.83455765247345" ;
+        mo:hasFreedomValue      "0.611100912094116" ;
+        mo:hasGenerosityValue   "0.435539722442627" ;
+        mo:hasTrustValue        "0.287371516227722" ;
+        mo:hasDystopiaValue     "2.18726444244385" .
+
+<http://dbpedia.org/resource/New_Zealand>
+        rdf:type                dbp:Country ;
+        dbp:name                "New Zealand" ;
+        dbp:rank                8 ;
+        mo:hasHappinessValue    "7.31400012969971" ;
+        mo:hasWhiskerHighValue  "7.3795104418695" ;
+        mo:hasWhiskerLowValue   "7.24848981752992" ;
+        mo:hasEconomyValue      "1.40570604801178" ;
+        mo:hasFamilyValue       "1.54819512367249" ;
+        mo:hasHealthValue       "0.816759705543518" ;
+        mo:hasFreedomValue      "0.614062130451202" ;
+        mo:hasGenerosityValue   "0.500005125999451" ;
+        mo:hasTrustValue        "0.382816702127457" ;
+        mo:hasDystopiaValue     "2.0464563369751" .
+
+<http://dbpedia.org/resource/Sweden>
+        rdf:type                dbp:Country ;
+        dbp:name                "Sweden" ;
+        dbp:rank                9 ;
+        mo:hasHappinessValue    "7.28399991989136" ;
+        mo:hasWhiskerHighValue  "7.34409487739205" ;
+        mo:hasWhiskerLowValue   "7.22390496239066" ;
+        mo:hasEconomyValue      "1.49438726902008" ;
+        mo:hasFamilyValue       "1.47816216945648" ;
+        mo:hasHealthValue       "0.830875158309937" ;
+        mo:hasFreedomValue      "0.612924098968506" ;
+        mo:hasGenerosityValue   "0.385399252176285" ;
+        mo:hasTrustValue        "0.384398728609085" ;
+        mo:hasDystopiaValue     "2.09753799438477" .
+
+<http://dbpedia.org/resource/Australia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Australia" ;
+        dbp:rank                10 ;
+        mo:hasHappinessValue    "7.28399991989136" ;
+        mo:hasWhiskerHighValue  "7.35665122494102" ;
+        mo:hasWhiskerLowValue   "7.2113486148417" ;
+        mo:hasEconomyValue      "1.484414935112" ;
+        mo:hasFamilyValue       "1.51004195213318" ;
+        mo:hasHealthValue       "0.84388679265976" ;
+        mo:hasFreedomValue      "0.601607382297516" ;
+        mo:hasGenerosityValue   "0.477699249982834" ;
+        mo:hasTrustValue        "0.301183730363846" ;
+        mo:hasDystopiaValue     "2.06521081924438" .
+
+<http://dbpedia.org/resource/Israel>
+        rdf:type                dbp:Country ;
+        dbp:name                "Israel" ;
+        dbp:rank                11 ;
+        mo:hasHappinessValue    "7.21299982070923" ;
+        mo:hasWhiskerHighValue  "7.27985325649381" ;
+        mo:hasWhiskerLowValue   "7.14614638492465" ;
+        mo:hasEconomyValue      "1.37538242340088" ;
+        mo:hasFamilyValue       "1.37628996372223" ;
+        mo:hasHealthValue       "0.83840399980545" ;
+        mo:hasFreedomValue      "0.405988603830338" ;
+        mo:hasGenerosityValue   "0.330082654953003" ;
+        mo:hasTrustValue        "0.0852421000599861" ;
+        mo:hasDystopiaValue     "2.80175733566284" .
+
+<http://dbpedia.org/resource/Costa_Rica>
+        rdf:type                dbp:Country ;
+        dbp:name                "Costa Rica" ;
+        dbp:rank                12 ;
+        mo:hasHappinessValue    "7.0789999961853" ;
+        mo:hasWhiskerHighValue  "7.16811166629195" ;
+        mo:hasWhiskerLowValue   "6.98988832607865" ;
+        mo:hasEconomyValue      "1.10970628261566" ;
+        mo:hasFamilyValue       "1.41640365123749" ;
+        mo:hasHealthValue       "0.759509265422821" ;
+        mo:hasFreedomValue      "0.580131649971008" ;
+        mo:hasGenerosityValue   "0.214613229036331" ;
+        mo:hasTrustValue        "0.100106589496136" ;
+        mo:hasDystopiaValue     "2.89863920211792" .
+
+<http://dbpedia.org/resource/Austria>
+        rdf:type                dbp:Country ;
+        dbp:name                "Austria" ;
+        dbp:rank                13 ;
+        mo:hasHappinessValue    "7.00600004196167" ;
+        mo:hasWhiskerHighValue  "7.07066981211305" ;
+        mo:hasWhiskerLowValue   "6.94133027181029" ;
+        mo:hasEconomyValue      "1.48709726333618" ;
+        mo:hasFamilyValue       "1.4599449634552" ;
+        mo:hasHealthValue       "0.815328419208527" ;
+        mo:hasFreedomValue      "0.567766189575195" ;
+        mo:hasGenerosityValue   "0.316472321748734" ;
+        mo:hasTrustValue        "0.221060365438461" ;
+        mo:hasDystopiaValue     "2.1385064125061" .
+
+<http://dbpedia.org/resource/United_States>
+        rdf:type                dbp:Country ;
+        dbp:name                "United_States" ;
+        dbp:rank                14 ;
+        mo:hasHappinessValue    "6.99300003051758" ;
+        mo:hasWhiskerHighValue  "7.07465674757957" ;
+        mo:hasWhiskerLowValue   "6.91134331345558" ;
+        mo:hasEconomyValue      "1.54625928401947" ;
+        mo:hasFamilyValue       "1.41992056369781" ;
+        mo:hasHealthValue       "0.77428662776947" ;
+        mo:hasFreedomValue      "0.505740523338318" ;
+        mo:hasGenerosityValue   "0.392578780651093" ;
+        mo:hasTrustValue        "0.135638788342476" ;
+        mo:hasDystopiaValue     "2.2181134223938" .
+
+<http://dbpedia.org/resource/Ireland>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ireland" ;
+        dbp:rank                15 ;
+        mo:hasHappinessValue    "6.97700023651123" ;
+        mo:hasWhiskerHighValue  "7.04335166752338" ;
+        mo:hasWhiskerLowValue   "6.91064880549908" ;
+        mo:hasEconomyValue      "1.53570663928986" ;
+        mo:hasFamilyValue       "1.55823111534119" ;
+        mo:hasHealthValue       "0.80978262424469" ;
+        mo:hasFreedomValue      "0.573110342025757" ;
+        mo:hasGenerosityValue   "0.42785832285881" ;
+        mo:hasTrustValue        "0.29838815331459" ;
+        mo:hasDystopiaValue     "1.77386903762817" .
+
+<http://dbpedia.org/resource/Germany>
+        rdf:type                dbp:Country ;
+        dbp:name                "Germany" ;
+        dbp:rank                16 ;
+        mo:hasHappinessValue    "6.95100021362305" ;
+        mo:hasWhiskerHighValue  "7.00538156926632" ;
+        mo:hasWhiskerLowValue   "6.89661885797977" ;
+        mo:hasEconomyValue      "1.48792338371277" ;
+        mo:hasFamilyValue       "1.47252035140991" ;
+        mo:hasHealthValue       "0.798950731754303" ;
+        mo:hasFreedomValue      "0.562511384487152" ;
+        mo:hasGenerosityValue   "0.336269170045853" ;
+        mo:hasTrustValue        "0.276731938123703" ;
+        mo:hasDystopiaValue     "2.01576995849609" .
+
+<http://dbpedia.org/resource/Belgium>
+        rdf:type                dbp:Country ;
+        dbp:name                "Belgium" ;
+        dbp:rank                17 ;
+        mo:hasHappinessValue    "6.89099979400635" ;
+        mo:hasWhiskerHighValue  "6.95582075044513" ;
+        mo:hasWhiskerLowValue   "6.82617883756757" ;
+        mo:hasEconomyValue      "1.46378076076508" ;
+        mo:hasFamilyValue       "1.46231269836426" ;
+        mo:hasHealthValue       "0.818091869354248" ;
+        mo:hasFreedomValue      "0.539770722389221" ;
+        mo:hasGenerosityValue   "0.231503337621689" ;
+        mo:hasTrustValue        "0.251343131065369" ;
+        mo:hasDystopiaValue     "2.12421035766602" .
+
+<http://dbpedia.org/resource/Luxembourg>
+        rdf:type                dbp:Country ;
+        dbp:name                "Luxembourg" ;
+        dbp:rank                18 ;
+        mo:hasHappinessValue    "6.86299991607666" ;
+        mo:hasWhiskerHighValue  "6.92368609987199" ;
+        mo:hasWhiskerLowValue   "6.80231373228133" ;
+        mo:hasEconomyValue      "1.74194359779358" ;
+        mo:hasFamilyValue       "1.45758366584778" ;
+        mo:hasHealthValue       "0.845089495182037" ;
+        mo:hasFreedomValue      "0.59662789106369" ;
+        mo:hasGenerosityValue   "0.283180981874466" ;
+        mo:hasTrustValue        "0.31883442401886" ;
+        mo:hasDystopiaValue     "1.61951208114624" .
+
+<http://dbpedia.org/resource/United_Kingdom>
+        rdf:type                dbp:Country ;
+        dbp:name                "United Kingdom" ;
+        dbp:rank                19 ;
+        mo:hasHappinessValue    "6.71400022506714" ;
+        mo:hasWhiskerHighValue  "6.78379176110029" ;
+        mo:hasWhiskerLowValue   "6.64420868903399" ;
+        mo:hasEconomyValue      "1.44163393974304" ;
+        mo:hasFamilyValue       "1.49646008014679" ;
+        mo:hasHealthValue       "0.805335938930511" ;
+        mo:hasFreedomValue      "0.508190035820007" ;
+        mo:hasGenerosityValue   "0.492774158716202" ;
+        mo:hasTrustValue        "0.265428066253662" ;
+        mo:hasDystopiaValue     "1.70414352416992" .
+
+<http://dbpedia.org/resource/Chile>
+        rdf:type                dbp:Country ;
+        dbp:name                "Chile" ;
+        dbp:rank                20 ;
+        mo:hasHappinessValue    "6.65199995040894" ;
+        mo:hasWhiskerHighValue  "6.73925056010485" ;
+        mo:hasWhiskerLowValue   "6.56474934071302" ;
+        mo:hasEconomyValue      "1.25278460979462" ;
+        mo:hasFamilyValue       "1.28402495384216" ;
+        mo:hasHealthValue       "0.819479703903198" ;
+        mo:hasFreedomValue      "0.376895278692245" ;
+        mo:hasGenerosityValue   "0.326662421226501" ;
+        mo:hasTrustValue        "0.0822879821062088" ;
+        mo:hasDystopiaValue     "2.50958585739136" .
+
+<http://dbpedia.org/resource/United_Arab_Emirates>
+        rdf:type                dbp:Country ;
+        dbp:name                "United Arab Emirates" ;
+        dbp:rank                21 ;
+        mo:hasHappinessValue    "6.64799976348877" ;
+        mo:hasWhiskerHighValue  "6.72204730376601" ;
+        mo:hasWhiskerLowValue   "6.57395222321153" ;
+        mo:hasEconomyValue      "1.62634336948395" ;
+        mo:hasFamilyValue       "1.26641023159027" ;
+        mo:hasHealthValue       "0.726798236370087" ;
+        mo:hasFreedomValue      "0.60834527015686" ;
+        mo:hasGenerosityValue   "0.3609419465065" ;
+        mo:hasTrustValue        "0.324489563703537" ;
+        mo:hasDystopiaValue     "1.734703540802" .
+
+<http://dbpedia.org/resource/Brazil>
+        rdf:type                dbp:Country ;
+        dbp:name                "Brazil" ;
+        dbp:rank                22 ;
+        mo:hasHappinessValue    "6.63500022888184" ;
+        mo:hasWhiskerHighValue  "6.72546950161457" ;
+        mo:hasWhiskerLowValue   "6.5445309561491" ;
+        mo:hasEconomyValue      "1.10735321044922" ;
+        mo:hasFamilyValue       "1.43130600452423" ;
+        mo:hasHealthValue       "0.616552352905273" ;
+        mo:hasFreedomValue      "0.437453746795654" ;
+        mo:hasGenerosityValue   "0.16234989464283" ;
+        mo:hasTrustValue        "0.111092761158943" ;
+        mo:hasDystopiaValue     "2.76926708221436" .
+
+<http://dbpedia.org/resource/Czech_Republic>
+        rdf:type                dbp:Country ;
+        dbp:name                "Czech Republic" ;
+        dbp:rank                23 ;
+        mo:hasHappinessValue    "6.60900020599365" ;
+        mo:hasWhiskerHighValue  "6.68386246263981" ;
+        mo:hasWhiskerLowValue   "6.5341379493475" ;
+        mo:hasEconomyValue      "1.35268235206604" ;
+        mo:hasFamilyValue       "1.43388521671295" ;
+        mo:hasHealthValue       "0.754444003105164" ;
+        mo:hasFreedomValue      "0.490946173667908" ;
+        mo:hasGenerosityValue   "0.0881067588925362" ;
+        mo:hasTrustValue        "0.0368729270994663" ;
+        mo:hasDystopiaValue     "2.45186185836792" .
+
+<http://dbpedia.org/resource/Argentina>
+        rdf:type                dbp:Country ;
+        dbp:name                "Argentina" ;
+        dbp:rank                24 ;
+        mo:hasHappinessValue    "6.59899997711182" ;
+        mo:hasWhiskerHighValue  "6.69008508607745" ;
+        mo:hasWhiskerLowValue   "6.50791486814618" ;
+        mo:hasEconomyValue      "1.18529546260834" ;
+        mo:hasFamilyValue       "1.44045114517212" ;
+        mo:hasHealthValue       "0.695137083530426" ;
+        mo:hasFreedomValue      "0.494519203901291" ;
+        mo:hasGenerosityValue   "0.109457060694695" ;
+        mo:hasTrustValue        "0.059739887714386" ;
+        mo:hasDystopiaValue     "2.61400532722473" .
+
+<http://dbpedia.org/resource/Mexico>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mexico" ;
+        dbp:rank                25 ;
+        mo:hasHappinessValue    "6.57800006866455" ;
+        mo:hasWhiskerHighValue  "6.67114890769124" ;
+        mo:hasWhiskerLowValue   "6.48485122963786" ;
+        mo:hasEconomyValue      "1.15318381786346" ;
+        mo:hasFamilyValue       "1.210862159729" ;
+        mo:hasHealthValue       "0.709978997707367" ;
+        mo:hasFreedomValue      "0.412730008363724" ;
+        mo:hasGenerosityValue   "0.120990432798862" ;
+        mo:hasTrustValue        "0.132774114608765" ;
+        mo:hasDystopiaValue     "2.83715486526489" .
+
+<http://dbpedia.org/resource/Singapore>
+        rdf:type                dbp:Country ;
+        dbp:name                "Singapore" ;
+        dbp:rank                26 ;
+        mo:hasHappinessValue    "6.57200002670288" ;
+        mo:hasWhiskerHighValue  "6.63672306910157" ;
+        mo:hasWhiskerLowValue   "6.50727698430419" ;
+        mo:hasEconomyValue      "1.69227766990662" ;
+        mo:hasFamilyValue       "1.35381436347961" ;
+        mo:hasHealthValue       "0.949492394924164" ;
+        mo:hasFreedomValue      "0.549840569496155" ;
+        mo:hasGenerosityValue   "0.345965981483459" ;
+        mo:hasTrustValue        "0.46430778503418" ;
+        mo:hasDystopiaValue     "1.21636199951172" .
+
+<http://dbpedia.org/resource/Malta>
+        rdf:type                dbp:Country ;
+        dbp:name                "Malta" ;
+        dbp:rank                27 ;
+        mo:hasHappinessValue    "6.52699995040894" ;
+        mo:hasWhiskerHighValue  "6.59839677289128" ;
+        mo:hasWhiskerLowValue   "6.45560312792659" ;
+        mo:hasEconomyValue      "1.34327983856201" ;
+        mo:hasFamilyValue       "1.48841166496277" ;
+        mo:hasHealthValue       "0.821944236755371" ;
+        mo:hasFreedomValue      "0.588767051696777" ;
+        mo:hasGenerosityValue   "0.574730575084686" ;
+        mo:hasTrustValue        "0.153066068887711" ;
+        mo:hasDystopiaValue     "1.55686283111572" .
+
+<http://dbpedia.org/resource/Uruguay>
+        rdf:type                dbp:Country ;
+        dbp:name                "Uruguay" ;
+        dbp:rank                28 ;
+        mo:hasHappinessValue    "6.4539999961853" ;
+        mo:hasWhiskerHighValue  "6.54590621769428" ;
+        mo:hasWhiskerLowValue   "6.36209377467632" ;
+        mo:hasEconomyValue      "1.21755969524384" ;
+        mo:hasFamilyValue       "1.41222786903381" ;
+        mo:hasHealthValue       "0.719216823577881" ;
+        mo:hasFreedomValue      "0.57939225435257" ;
+        mo:hasGenerosityValue   "0.175096929073334" ;
+        mo:hasTrustValue        "0.178061872720718" ;
+        mo:hasDystopiaValue     "2.17240953445435" .
+
+<http://dbpedia.org/resource/Guatemala>
+        rdf:type                dbp:Country ;
+        dbp:name                "Guatemala" ;
+        dbp:rank                29 ;
+        mo:hasHappinessValue    "6.4539999961853" ;
+        mo:hasWhiskerHighValue  "6.56687397271395" ;
+        mo:hasWhiskerLowValue   "6.34112601965666" ;
+        mo:hasEconomyValue      "0.872001945972443" ;
+        mo:hasFamilyValue       "1.25558519363403" ;
+        mo:hasHealthValue       "0.540239989757538" ;
+        mo:hasFreedomValue      "0.531310617923737" ;
+        mo:hasGenerosityValue   "0.283488392829895" ;
+        mo:hasTrustValue        "0.0772232785820961" ;
+        mo:hasDystopiaValue     "2.89389109611511" .
+
+<http://dbpedia.org/resource/Panama>
+        rdf:type                dbp:Country ;
+        dbp:name                "Panama" ;
+        dbp:rank                30 ;
+        mo:hasHappinessValue    "6.4520001411438" ;
+        mo:hasWhiskerHighValue  "6.55713071614504" ;
+        mo:hasWhiskerLowValue   "6.34686956614256" ;
+        mo:hasEconomyValue      "1.23374843597412" ;
+        mo:hasFamilyValue       "1.37319254875183" ;
+        mo:hasHealthValue       "0.706156134605408" ;
+        mo:hasFreedomValue      "0.550026834011078" ;
+        mo:hasGenerosityValue   "0.21055693924427" ;
+        mo:hasTrustValue        "0.070983923971653" ;
+        mo:hasDystopiaValue     "2.30719995498657" .
+
+<http://dbpedia.org/resource/France>
+        rdf:type                dbp:Country ;
+        dbp:name                "France" ;
+        dbp:rank                31 ;
+        mo:hasHappinessValue    "6.44199991226196" ;
+        mo:hasWhiskerHighValue  "6.51576780244708" ;
+        mo:hasWhiskerLowValue   "6.36823202207685" ;
+        mo:hasEconomyValue      "1.43092346191406" ;
+        mo:hasFamilyValue       "1.38777685165405" ;
+        mo:hasHealthValue       "0.844465851783752" ;
+        mo:hasFreedomValue      "0.470222115516663" ;
+        mo:hasGenerosityValue   "0.129762306809425" ;
+        mo:hasTrustValue        "0.172502428293228" ;
+        mo:hasDystopiaValue     "2.00595474243164" .
+
+<http://dbpedia.org/resource/Thailand>
+        rdf:type                dbp:Country ;
+        dbp:name                "Thailand" ;
+        dbp:rank                32 ;
+        mo:hasHappinessValue    "6.42399978637695" ;
+        mo:hasWhiskerHighValue  "6.50911685571074" ;
+        mo:hasWhiskerLowValue   "6.33888271704316" ;
+        mo:hasEconomyValue      "1.12786877155304" ;
+        mo:hasFamilyValue       "1.42579245567322" ;
+        mo:hasHealthValue       "0.647239029407501" ;
+        mo:hasFreedomValue      "0.580200731754303" ;
+        mo:hasGenerosityValue   "0.572123110294342" ;
+        mo:hasTrustValue        "0.0316127352416515" ;
+        mo:hasDystopiaValue     "2.03950834274292" .
+
+<http://dbpedia.org/resource/Taiwan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Taiwan" ;
+        dbp:rank                33 ;
+        mo:hasHappinessValue    "6.42199993133545" ;
+        mo:hasWhiskerHighValue  "6.49459602192044" ;
+        mo:hasWhiskerLowValue   "6.34940384075046" ;
+        mo:hasEconomyValue      "1.43362653255463" ;
+        mo:hasFamilyValue       "1.38456535339355" ;
+        mo:hasHealthValue       "0.793984234333038" ;
+        mo:hasFreedomValue      "0.361466586589813" ;
+        mo:hasGenerosityValue   "0.258360475301743" ;
+        mo:hasTrustValue        "0.0638292357325554" ;
+        mo:hasDystopiaValue     "2.1266074180603" .
+
+<http://dbpedia.org/resource/Spain>
+        rdf:type                dbp:Country ;
+        dbp:name                "Spain" ;
+        dbp:rank                34 ;
+        mo:hasHappinessValue    "6.40299987792969" ;
+        mo:hasWhiskerHighValue  "6.4710548453033" ;
+        mo:hasWhiskerLowValue   "6.33494491055608" ;
+        mo:hasEconomyValue      "1.38439786434174" ;
+        mo:hasFamilyValue       "1.53209090232849" ;
+        mo:hasHealthValue       "0.888960599899292" ;
+        mo:hasFreedomValue      "0.408781230449677" ;
+        mo:hasGenerosityValue   "0.190133571624756" ;
+        mo:hasTrustValue        "0.0709140971302986" ;
+        mo:hasDystopiaValue     "1.92775774002075" .
+
+<http://dbpedia.org/resource/Qatar>
+        rdf:type                dbp:Country ;
+        dbp:name                "Qatar" ;
+        dbp:rank                35 ;
+        mo:hasHappinessValue    "6.375" ;
+        mo:hasWhiskerHighValue  "6.56847681432962" ;
+        mo:hasWhiskerLowValue   "6.18152318567038" ;
+        mo:hasEconomyValue      "1.87076568603516" ;
+        mo:hasFamilyValue       "1.27429687976837" ;
+        mo:hasHealthValue       "0.710098087787628" ;
+        mo:hasFreedomValue      "0.604130983352661" ;
+        mo:hasGenerosityValue   "0.330473870038986" ;
+        mo:hasTrustValue        "0.439299255609512" ;
+        mo:hasDystopiaValue     "1.1454644203186" .
+
+<http://dbpedia.org/resource/Colombia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Colombia" ;
+        dbp:rank                36 ;
+        mo:hasHappinessValue    "6.35699987411499" ;
+        mo:hasWhiskerHighValue  "6.45202005416155" ;
+        mo:hasWhiskerLowValue   "6.26197969406843" ;
+        mo:hasEconomyValue      "1.07062232494354" ;
+        mo:hasFamilyValue       "1.4021829366684" ;
+        mo:hasHealthValue       "0.595027923583984" ;
+        mo:hasFreedomValue      "0.477487415075302" ;
+        mo:hasGenerosityValue   "0.149014472961426" ;
+        mo:hasTrustValue        "0.0466687418520451" ;
+        mo:hasDystopiaValue     "2.61606812477112" .
+
+<http://dbpedia.org/resource/Saudi_Arabia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Saudi Arabia" ;
+        dbp:rank                37 ;
+        mo:hasHappinessValue    "6.3439998626709" ;
+        mo:hasWhiskerHighValue  "6.44416661202908" ;
+        mo:hasWhiskerLowValue   "6.24383311331272" ;
+        mo:hasEconomyValue      "1.53062355518341" ;
+        mo:hasFamilyValue       "1.28667759895325" ;
+        mo:hasHealthValue       "0.590148329734802" ;
+        mo:hasFreedomValue      "0.449750572443008" ;
+        mo:hasGenerosityValue   "0.147616013884544" ;
+        mo:hasTrustValue        "0.27343225479126" ;
+        mo:hasDystopiaValue     "2.0654296875" .
+
+<http://dbpedia.org/resource/Trinidad_and_Tobago>
+        rdf:type                dbp:Country ;
+        dbp:name                "Trinidad and Tobago" ;
+        dbp:rank                38 ;
+        mo:hasHappinessValue    "6.16800022125244" ;
+        mo:hasWhiskerHighValue  "6.38153389066458" ;
+        mo:hasWhiskerLowValue   "5.95446655184031" ;
+        mo:hasEconomyValue      "1.36135590076447" ;
+        mo:hasFamilyValue       "1.3802285194397" ;
+        mo:hasHealthValue       "0.519983291625977" ;
+        mo:hasFreedomValue      "0.518630743026733" ;
+        mo:hasGenerosityValue   "0.325296461582184" ;
+        mo:hasTrustValue        "0.00896481610834599" ;
+        mo:hasDystopiaValue     "2.05324745178223" .
+
+<http://dbpedia.org/resource/Kuwait>
+        rdf:type                dbp:Country ;
+        dbp:name                "Kuwait" ;
+        dbp:rank                39 ;
+        mo:hasHappinessValue    "6.10500001907349" ;
+        mo:hasWhiskerHighValue  "6.1919569888711" ;
+        mo:hasWhiskerLowValue   "6.01804304927588" ;
+        mo:hasEconomyValue      "1.63295245170593" ;
+        mo:hasFamilyValue       "1.25969874858856" ;
+        mo:hasHealthValue       "0.632105708122253" ;
+        mo:hasFreedomValue      "0.496337592601776" ;
+        mo:hasGenerosityValue   "0.228289797902107" ;
+        mo:hasTrustValue        "0.215159550309181" ;
+        mo:hasDystopiaValue     "1.64042520523071" .
+
+<http://dbpedia.org/resource/Slovakia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Slovakia" ;
+        dbp:rank                40 ;
+        mo:hasHappinessValue    "6.09800004959106" ;
+        mo:hasWhiskerHighValue  "6.1773484121263" ;
+        mo:hasWhiskerLowValue   "6.01865168705583" ;
+        mo:hasEconomyValue      "1.32539355754852" ;
+        mo:hasFamilyValue       "1.50505924224854" ;
+        mo:hasHealthValue       "0.712732911109924" ;
+        mo:hasFreedomValue      "0.295817464590073" ;
+        mo:hasGenerosityValue   "0.136544480919838" ;
+        mo:hasTrustValue        "0.0242108516395092" ;
+        mo:hasDystopiaValue     "2.09777665138245" .
+
+<http://dbpedia.org/resource/Bahrain>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bahrain" ;
+        dbp:rank                41 ;
+        mo:hasHappinessValue    "6.08699989318848" ;
+        mo:hasWhiskerHighValue  "6.17898906782269" ;
+        mo:hasWhiskerLowValue   "5.99501071855426" ;
+        mo:hasEconomyValue      "1.48841226100922" ;
+        mo:hasFamilyValue       "1.32311046123505" ;
+        mo:hasHealthValue       "0.653133034706116" ;
+        mo:hasFreedomValue      "0.536746919155121" ;
+        mo:hasGenerosityValue   "0.172668486833572" ;
+        mo:hasTrustValue        "0.257042169570923" ;
+        mo:hasDystopiaValue     "1.65614938735962" .
+
+<http://dbpedia.org/resource/Malaysia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Malaysia" ;
+        dbp:rank                42 ;
+        mo:hasHappinessValue    "6.08400011062622" ;
+        mo:hasWhiskerHighValue  "6.17997963652015" ;
+        mo:hasWhiskerLowValue   "5.98802058473229" ;
+        mo:hasEconomyValue      "1.29121541976929" ;
+        mo:hasFamilyValue       "1.28464603424072" ;
+        mo:hasHealthValue       "0.618784427642822" ;
+        mo:hasFreedomValue      "0.402264982461929" ;
+        mo:hasGenerosityValue   "0.416608929634094" ;
+        mo:hasTrustValue        "0.0656007081270218" ;
+        mo:hasDystopiaValue     "2.00444889068604" .
+
+<http://dbpedia.org/resource/Nicaragua>
+        rdf:type                dbp:Country ;
+        dbp:name                "Nicaragua" ;
+        dbp:rank                43 ;
+        mo:hasHappinessValue    "6.07100009918213" ;
+        mo:hasWhiskerHighValue  "6.18658360034227" ;
+        mo:hasWhiskerLowValue   "5.95541659802198" ;
+        mo:hasEconomyValue      "0.737299203872681" ;
+        mo:hasFamilyValue       "1.28721570968628" ;
+        mo:hasHealthValue       "0.653095960617065" ;
+        mo:hasFreedomValue      "0.447551846504211" ;
+        mo:hasGenerosityValue   "0.301674216985703" ;
+        mo:hasTrustValue        "0.130687981843948" ;
+        mo:hasDystopiaValue     "2.51393055915833" .
+
+<http://dbpedia.org/resource/Ecuador>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ecuador" ;
+        dbp:rank                44 ;
+        mo:hasHappinessValue    "6.00799989700317" ;
+        mo:hasWhiskerHighValue  "6.10584767535329" ;
+        mo:hasWhiskerLowValue   "5.91015211865306" ;
+        mo:hasEconomyValue      "1.00082039833069" ;
+        mo:hasFamilyValue       "1.28616881370544" ;
+        mo:hasHealthValue       "0.685636222362518" ;
+        mo:hasFreedomValue      "0.4551981985569" ;
+        mo:hasGenerosityValue   "0.150112465023994" ;
+        mo:hasTrustValue        "0.140134647488594" ;
+        mo:hasDystopiaValue     "2.29035258293152" .
+
+<http://dbpedia.org/resource/El_Salvador>
+        rdf:type                dbp:Country ;
+        dbp:name                "El Salvador" ;
+        dbp:rank                45 ;
+        mo:hasHappinessValue    "6.00299978256226" ;
+        mo:hasWhiskerHighValue  "6.108635122329" ;
+        mo:hasWhiskerLowValue   "5.89736444279552" ;
+        mo:hasEconomyValue      "0.909784495830536" ;
+        mo:hasFamilyValue       "1.18212509155273" ;
+        mo:hasHealthValue       "0.596018552780151" ;
+        mo:hasFreedomValue      "0.432452529668808" ;
+        mo:hasGenerosityValue   "0.0782579854130745" ;
+        mo:hasTrustValue        "0.0899809598922729" ;
+        mo:hasDystopiaValue     "2.7145938873291" .
+
+<http://dbpedia.org/resource/Poland>
+        rdf:type                dbp:Country ;
+        dbp:name                "Poland" ;
+        dbp:rank                46 ;
+        mo:hasHappinessValue    "5.97300004959106" ;
+        mo:hasWhiskerHighValue  "6.05390834122896" ;
+        mo:hasWhiskerLowValue   "5.89209175795317" ;
+        mo:hasEconomyValue      "1.29178786277771" ;
+        mo:hasFamilyValue       "1.44571197032928" ;
+        mo:hasHealthValue       "0.699475347995758" ;
+        mo:hasFreedomValue      "0.520342111587524" ;
+        mo:hasGenerosityValue   "0.158465966582298" ;
+        mo:hasTrustValue        "0.0593078061938286" ;
+        mo:hasDystopiaValue     "1.79772281646729" .
+
+<http://dbpedia.org/resource/Uzbekistan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Uzbekistan" ;
+        dbp:rank                47 ;
+        mo:hasHappinessValue    "5.97100019454956" ;
+        mo:hasWhiskerHighValue  "6.06553757295012" ;
+        mo:hasWhiskerLowValue   "5.876462816149" ;
+        mo:hasEconomyValue      "0.786441087722778" ;
+        mo:hasFamilyValue       "1.54896914958954" ;
+        mo:hasHealthValue       "0.498272627592087" ;
+        mo:hasFreedomValue      "0.658248662948608" ;
+        mo:hasGenerosityValue   "0.415983647108078" ;
+        mo:hasTrustValue        "0.246528223156929" ;
+        mo:hasDystopiaValue     "1.81691360473633" .
+
+<http://dbpedia.org/resource/Italy>
+        rdf:type                dbp:Country ;
+        dbp:name                "Italy" ;
+        dbp:rank                48 ;
+        mo:hasHappinessValue    "5.96400022506714" ;
+        mo:hasWhiskerHighValue  "6.04273690596223" ;
+        mo:hasWhiskerLowValue   "5.88526354417205" ;
+        mo:hasEconomyValue      "1.39506661891937" ;
+        mo:hasFamilyValue       "1.44492328166962" ;
+        mo:hasHealthValue       "0.853144347667694" ;
+        mo:hasFreedomValue      "0.256450712680817" ;
+        mo:hasGenerosityValue   "0.17278964817524" ;
+        mo:hasTrustValue        "0.0280280914157629" ;
+        mo:hasDystopiaValue     "1.81331205368042" .
+
+<http://dbpedia.org/resource/Russia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Russia" ;
+        dbp:rank                49 ;
+        mo:hasHappinessValue    "5.96299982070923" ;
+        mo:hasWhiskerHighValue  "6.03027490749955" ;
+        mo:hasWhiskerLowValue   "5.89572473391891" ;
+        mo:hasEconomyValue      "1.28177809715271" ;
+        mo:hasFamilyValue       "1.46928238868713" ;
+        mo:hasHealthValue       "0.547349333763123" ;
+        mo:hasFreedomValue      "0.373783111572266" ;
+        mo:hasGenerosityValue   "0.0522638224065304" ;
+        mo:hasTrustValue        "0.0329628810286522" ;
+        mo:hasDystopiaValue     "2.20560741424561" .
+
+<http://dbpedia.org/resource/Belize>
+        rdf:type                dbp:Country ;
+        dbp:name                "Belize" ;
+        dbp:rank                50 ;
+        mo:hasHappinessValue    "5.95599985122681" ;
+        mo:hasWhiskerHighValue  "6.19724231779575" ;
+        mo:hasWhiskerLowValue   "5.71475738465786" ;
+        mo:hasEconomyValue      "0.907975316047668" ;
+        mo:hasFamilyValue       "1.08141779899597" ;
+        mo:hasHealthValue       "0.450191766023636" ;
+        mo:hasFreedomValue      "0.547509372234344" ;
+        mo:hasGenerosityValue   "0.240015640854836" ;
+        mo:hasTrustValue        "0.0965810716152191" ;
+        mo:hasDystopiaValue     "2.63195562362671" .
+
+<http://dbpedia.org/resource/Japan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Japan" ;
+        dbp:rank                51 ;
+        mo:hasHappinessValue    "5.92000007629395" ;
+        mo:hasWhiskerHighValue  "5.99071944460273" ;
+        mo:hasWhiskerLowValue   "5.84928070798516" ;
+        mo:hasEconomyValue      "1.41691517829895" ;
+        mo:hasFamilyValue       "1.43633782863617" ;
+        mo:hasHealthValue       "0.913475871086121" ;
+        mo:hasFreedomValue      "0.505625545978546" ;
+        mo:hasGenerosityValue   "0.12057276815176" ;
+        mo:hasTrustValue        "0.163760736584663" ;
+        mo:hasDystopiaValue     "1.36322355270386" .
+
+<http://dbpedia.org/resource/Lithuania>
+        rdf:type                dbp:Country ;
+        dbp:name                "Lithuania" ;
+        dbp:rank                52 ;
+        mo:hasHappinessValue    "5.90199995040894" ;
+        mo:hasWhiskerHighValue  "5.98266964137554" ;
+        mo:hasWhiskerLowValue   "5.82133025944233" ;
+        mo:hasEconomyValue      "1.31458234786987" ;
+        mo:hasFamilyValue       "1.47351610660553" ;
+        mo:hasHealthValue       "0.62894994020462" ;
+        mo:hasFreedomValue      "0.234231784939766" ;
+        mo:hasGenerosityValue   "0.010164656676352" ;
+        mo:hasTrustValue        "0.0118656428530812" ;
+        mo:hasDystopiaValue     "2.22844052314758" .
+
+<http://dbpedia.org/resource/Algeria>
+        rdf:type                dbp:Country ;
+        dbp:name                "Algeria" ;
+        dbp:rank                53 ;
+        mo:hasHappinessValue    "5.87200021743774" ;
+        mo:hasWhiskerHighValue  "5.97828643366694" ;
+        mo:hasWhiskerLowValue   "5.76571400120854" ;
+        mo:hasEconomyValue      "1.09186446666718" ;
+        mo:hasFamilyValue       "1.1462174654007" ;
+        mo:hasHealthValue       "0.617584645748138" ;
+        mo:hasFreedomValue      "0.233335807919502" ;
+        mo:hasGenerosityValue   "0.0694366469979286" ;
+        mo:hasTrustValue        "0.146096110343933" ;
+        mo:hasDystopiaValue     "2.56760382652283" .
+
+<http://dbpedia.org/resource/Latvia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Latvia" ;
+        dbp:rank                54 ;
+        mo:hasHappinessValue    "5.84999990463257" ;
+        mo:hasWhiskerHighValue  "5.92026353821158" ;
+        mo:hasWhiskerLowValue   "5.77973627105355" ;
+        mo:hasEconomyValue      "1.26074862480164" ;
+        mo:hasFamilyValue       "1.40471494197845" ;
+        mo:hasHealthValue       "0.638566970825195" ;
+        mo:hasFreedomValue      "0.325707912445068" ;
+        mo:hasGenerosityValue   "0.153074786067009" ;
+        mo:hasTrustValue        "0.0738427266478539" ;
+        mo:hasDystopiaValue     "1.99365520477295" .
+
+<http://dbpedia.org/resource/South_Korea>
+        rdf:type                dbp:Country ;
+        dbp:name                "South Korea" ;
+        dbp:rank                55 ;
+        mo:hasHappinessValue    "5.83799982070923" ;
+        mo:hasWhiskerHighValue  "5.92255902826786" ;
+        mo:hasWhiskerLowValue   "5.7534406131506" ;
+        mo:hasEconomyValue      "1.40167844295502" ;
+        mo:hasFamilyValue       "1.12827444076538" ;
+        mo:hasHealthValue       "0.900214076042175" ;
+        mo:hasFreedomValue      "0.257921665906906" ;
+        mo:hasGenerosityValue   "0.206674367189407" ;
+        mo:hasTrustValue        "0.0632826685905457" ;
+        mo:hasDystopiaValue     "1.88037800788879" .
+
+<http://dbpedia.org/resource/Moldova>
+        rdf:type                dbp:Country ;
+        dbp:name                "Moldova" ;
+        dbp:rank                56 ;
+        mo:hasHappinessValue    "5.83799982070923" ;
+        mo:hasWhiskerHighValue  "5.90837083846331" ;
+        mo:hasWhiskerLowValue   "5.76762880295515" ;
+        mo:hasEconomyValue      "0.728870630264282" ;
+        mo:hasFamilyValue       "1.25182557106018" ;
+        mo:hasHealthValue       "0.589465200901031" ;
+        mo:hasFreedomValue      "0.240729048848152" ;
+        mo:hasGenerosityValue   "0.208779126405716" ;
+        mo:hasTrustValue        "0.0100912861526012" ;
+        mo:hasDystopiaValue     "2.80780839920044" .
+
+<http://dbpedia.org/resource/Romania>
+        rdf:type                dbp:Country ;
+        dbp:name                "Romania" ;
+        dbp:rank                57 ;
+        mo:hasHappinessValue    "5.82499980926514" ;
+        mo:hasWhiskerHighValue  "5.91969415679574" ;
+        mo:hasWhiskerLowValue   "5.73030546173453" ;
+        mo:hasEconomyValue      "1.21768391132355" ;
+        mo:hasFamilyValue       "1.15009129047394" ;
+        mo:hasHealthValue       "0.685158312320709" ;
+        mo:hasFreedomValue      "0.457003742456436" ;
+        mo:hasGenerosityValue   "0.133519917726517" ;
+        mo:hasTrustValue        "0.00438790069893003" ;
+        mo:hasDystopiaValue     "2.17683148384094" .
+
+<http://dbpedia.org/resource/Bolivia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bolivia" ;
+        dbp:rank                58 ;
+        mo:hasHappinessValue    "5.82299995422363" ;
+        mo:hasWhiskerHighValue  "5.9039769025147" ;
+        mo:hasWhiskerLowValue   "5.74202300593257" ;
+        mo:hasEconomyValue      "0.833756566047668" ;
+        mo:hasFamilyValue       "1.22761905193329" ;
+        mo:hasHealthValue       "0.473630249500275" ;
+        mo:hasFreedomValue      "0.558732926845551" ;
+        mo:hasGenerosityValue   "0.22556072473526" ;
+        mo:hasTrustValue        "0.0604777261614799" ;
+        mo:hasDystopiaValue     "2.44327902793884" .
+
+<http://dbpedia.org/resource/Turkmenistan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Turkmenistan" ;
+        dbp:rank                59 ;
+        mo:hasHappinessValue    "5.82200002670288" ;
+        mo:hasWhiskerHighValue  "5.88518087550998" ;
+        mo:hasWhiskerLowValue   "5.75881917789578" ;
+        mo:hasEconomyValue      "1.13077676296234" ;
+        mo:hasFamilyValue       "1.49314916133881" ;
+        mo:hasHealthValue       "0.437726080417633" ;
+        mo:hasFreedomValue      "0.41827192902565" ;
+        mo:hasGenerosityValue   "0.24992498755455" ;
+        mo:hasTrustValue        "0.259270340204239" ;
+        mo:hasDystopiaValue     "1.83290982246399" .
+
+<http://dbpedia.org/resource/Kazakhstan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Kazakhstan" ;
+        dbp:rank                60 ;
+        mo:hasHappinessValue    "5.81899976730347" ;
+        mo:hasWhiskerHighValue  "5.90364177465439" ;
+        mo:hasWhiskerLowValue   "5.73435775995255" ;
+        mo:hasEconomyValue      "1.28455626964569" ;
+        mo:hasFamilyValue       "1.38436901569366" ;
+        mo:hasHealthValue       "0.606041550636292" ;
+        mo:hasFreedomValue      "0.437454283237457" ;
+        mo:hasGenerosityValue   "0.201964423060417" ;
+        mo:hasTrustValue        "0.119282886385918" ;
+        mo:hasDystopiaValue     "1.78489255905151" .
+
+<http://dbpedia.org/resource/North_Cyprus>
+        rdf:type                dbp:Country ;
+        dbp:name                "North Cyprus" ;
+        dbp:rank                61 ;
+        mo:hasHappinessValue    "5.80999994277954" ;
+        mo:hasWhiskerHighValue  "5.89736646488309" ;
+        mo:hasWhiskerLowValue   "5.72263342067599" ;
+        mo:hasEconomyValue      "1.3469113111496" ;
+        mo:hasFamilyValue       "1.18630337715149" ;
+        mo:hasHealthValue       "0.834647238254547" ;
+        mo:hasFreedomValue      "0.471203625202179" ;
+        mo:hasGenerosityValue   "0.266845703125" ;
+        mo:hasTrustValue        "0.155353352427483" ;
+        mo:hasDystopiaValue     "1.54915761947632" .
+
+<http://dbpedia.org/resource/Slovenia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Slovenia" ;
+        dbp:rank                62 ;
+        mo:hasHappinessValue    "5.75799989700317" ;
+        mo:hasWhiskerHighValue  "5.84222516000271" ;
+        mo:hasWhiskerLowValue   "5.67377463400364" ;
+        mo:hasEconomyValue      "1.3412059545517" ;
+        mo:hasFamilyValue       "1.45251882076263" ;
+        mo:hasHealthValue       "0.790828227996826" ;
+        mo:hasFreedomValue      "0.572575807571411" ;
+        mo:hasGenerosityValue   "0.242649093270302" ;
+        mo:hasTrustValue        "0.0451289787888527" ;
+        mo:hasDystopiaValue     "1.31331729888916" .
+
+<http://dbpedia.org/resource/Peru>
+        rdf:type                dbp:Country ;
+        dbp:name                "Peru" ;
+        dbp:rank                63 ;
+        mo:hasHappinessValue    "5.71500015258789" ;
+        mo:hasWhiskerHighValue  "5.81194677859545" ;
+        mo:hasWhiskerLowValue   "5.61805352658033" ;
+        mo:hasEconomyValue      "1.03522527217865" ;
+        mo:hasFamilyValue       "1.21877038478851" ;
+        mo:hasHealthValue       "0.630166113376617" ;
+        mo:hasFreedomValue      "0.450002878904343" ;
+        mo:hasGenerosityValue   "0.126819714903831" ;
+        mo:hasTrustValue        "0.0470490865409374" ;
+        mo:hasDystopiaValue     "2.20726943016052" .
+
+<http://dbpedia.org/resource/Mauritius>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mauritius" ;
+        dbp:rank                64 ;
+        mo:hasHappinessValue    "5.62900018692017" ;
+        mo:hasWhiskerHighValue  "5.72986219167709" ;
+        mo:hasWhiskerLowValue   "5.52813818216324" ;
+        mo:hasEconomyValue      "1.18939554691315" ;
+        mo:hasFamilyValue       "1.20956099033356" ;
+        mo:hasHealthValue       "0.638007462024689" ;
+        mo:hasFreedomValue      "0.491247326135635" ;
+        mo:hasGenerosityValue   "0.360933750867844" ;
+        mo:hasTrustValue        "0.0421815551817417" ;
+        mo:hasDystopiaValue     "1.6975839138031" .
+
+<http://dbpedia.org/resource/Cyprus>
+        rdf:type                dbp:Country ;
+        dbp:name                "Cyprus" ;
+        dbp:rank                65 ;
+        mo:hasHappinessValue    "5.62099981307983" ;
+        mo:hasWhiskerHighValue  "5.71469269931316" ;
+        mo:hasWhiskerLowValue   "5.5273069268465" ;
+        mo:hasEconomyValue      "1.35593807697296" ;
+        mo:hasFamilyValue       "1.13136327266693" ;
+        mo:hasHealthValue       "0.84471470117569" ;
+        mo:hasFreedomValue      "0.355111539363861" ;
+        mo:hasGenerosityValue   "0.271254301071167" ;
+        mo:hasTrustValue        "0.0412379764020443" ;
+        mo:hasDystopiaValue     "1.62124919891357" .
+
+<http://dbpedia.org/resource/Estonia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Estonia" ;
+        dbp:rank                66 ;
+        mo:hasHappinessValue    "5.61100006103516" ;
+        mo:hasWhiskerHighValue  "5.68813987419009" ;
+        mo:hasWhiskerLowValue   "5.53386024788022" ;
+        mo:hasEconomyValue      "1.32087934017181" ;
+        mo:hasFamilyValue       "1.47667109966278" ;
+        mo:hasHealthValue       "0.695168316364288" ;
+        mo:hasFreedomValue      "0.479131430387497" ;
+        mo:hasGenerosityValue   "0.0988908112049103" ;
+        mo:hasTrustValue        "0.183248922228813" ;
+        mo:hasDystopiaValue     "1.35750865936279" .
+
+<http://dbpedia.org/resource/Belarus>
+        rdf:type                dbp:Country ;
+        dbp:name                "Belarus" ;
+        dbp:rank                67 ;
+        mo:hasHappinessValue    "5.56899976730347" ;
+        mo:hasWhiskerHighValue  "5.64611424401402" ;
+        mo:hasWhiskerLowValue   "5.49188529059291" ;
+        mo:hasEconomyValue      "1.15655755996704" ;
+        mo:hasFamilyValue       "1.44494521617889" ;
+        mo:hasHealthValue       "0.637714266777039" ;
+        mo:hasFreedomValue      "0.295400261878967" ;
+        mo:hasGenerosityValue   "0.15513750910759" ;
+        mo:hasTrustValue        "0.156313821673393" ;
+        mo:hasDystopiaValue     "1.72323298454285" .
+
+<http://dbpedia.org/resource/Libya>
+        rdf:type                dbp:Country ;
+        dbp:name                "Libya" ;
+        dbp:rank                68 ;
+        mo:hasHappinessValue    "5.52500009536743" ;
+        mo:hasWhiskerHighValue  "5.67695380687714" ;
+        mo:hasWhiskerLowValue   "5.37304638385773" ;
+        mo:hasEconomyValue      "1.10180306434631" ;
+        mo:hasFamilyValue       "1.35756433010101" ;
+        mo:hasHealthValue       "0.520169019699097" ;
+        mo:hasFreedomValue      "0.465733230113983" ;
+        mo:hasGenerosityValue   "0.152073666453362" ;
+        mo:hasTrustValue        "0.0926102101802826" ;
+        mo:hasDystopiaValue     "1.83501124382019" .
+
+<http://dbpedia.org/resource/Turkey>
+        rdf:type                dbp:Country ;
+        dbp:name                "Turkey" ;
+        dbp:rank                69 ;
+        mo:hasHappinessValue    "5.5" ;
+        mo:hasWhiskerHighValue  "5.59486496329308" ;
+        mo:hasWhiskerLowValue   "5.40513503670692" ;
+        mo:hasEconomyValue      "1.19827437400818" ;
+        mo:hasFamilyValue       "1.33775317668915" ;
+        mo:hasHealthValue       "0.637605607509613" ;
+        mo:hasFreedomValue      "0.300740599632263" ;
+        mo:hasGenerosityValue   "0.0466930419206619" ;
+        mo:hasTrustValue        "0.0996715798974037" ;
+        mo:hasDystopiaValue     "1.87927794456482" .
+
+<http://dbpedia.org/resource/Paraguay>
+        rdf:type                dbp:Country ;
+        dbp:name                "Paraguay" ;
+        dbp:rank                70 ;
+        mo:hasHappinessValue    "5.49300003051758" ;
+        mo:hasWhiskerHighValue  "5.57738126963377" ;
+        mo:hasWhiskerLowValue   "5.40861879140139" ;
+        mo:hasEconomyValue      "0.932537317276001" ;
+        mo:hasFamilyValue       "1.50728487968445" ;
+        mo:hasHealthValue       "0.579250693321228" ;
+        mo:hasFreedomValue      "0.473507791757584" ;
+        mo:hasGenerosityValue   "0.224150657653809" ;
+        mo:hasTrustValue        "0.091065913438797" ;
+        mo:hasDystopiaValue     "1.6853334903717" .
+
+<http://dbpedia.org/resource/Hong_Kong>
+        rdf:type                dbp:Country ;
+        dbp:name                "Hong Kong" ;
+        dbp:rank                71 ;
+        mo:hasHappinessValue    "5.47200012207031" ;
+        mo:hasWhiskerHighValue  "5.54959417313337" ;
+        mo:hasWhiskerLowValue   "5.39440607100725" ;
+        mo:hasEconomyValue      "1.55167484283447" ;
+        mo:hasFamilyValue       "1.26279091835022" ;
+        mo:hasHealthValue       "0.943062424659729" ;
+        mo:hasFreedomValue      "0.490968644618988" ;
+        mo:hasGenerosityValue   "0.374465793371201" ;
+        mo:hasTrustValue        "0.293933749198914" ;
+        mo:hasDystopiaValue     "0.554633140563965" .
+
+<http://dbpedia.org/resource/Philippines>
+        rdf:type                dbp:Country ;
+        dbp:name                "Philippines" ;
+        dbp:rank                72 ;
+        mo:hasHappinessValue    "5.42999982833862" ;
+        mo:hasWhiskerHighValue  "5.54533505424857" ;
+        mo:hasWhiskerLowValue   "5.31466460242867" ;
+        mo:hasEconomyValue      "0.85769921541214" ;
+        mo:hasFamilyValue       "1.25391757488251" ;
+        mo:hasHealthValue       "0.468009054660797" ;
+        mo:hasFreedomValue      "0.585214674472809" ;
+        mo:hasGenerosityValue   "0.193513423204422" ;
+        mo:hasTrustValue        "0.0993318930268288" ;
+        mo:hasDystopiaValue     "1.97260475158691" .
+
+<http://dbpedia.org/resource/Serbia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Serbia" ;
+        dbp:rank                73 ;
+        mo:hasHappinessValue    "5.39499998092651" ;
+        mo:hasWhiskerHighValue  "5.49156965613365" ;
+        mo:hasWhiskerLowValue   "5.29843030571938" ;
+        mo:hasEconomyValue      "1.06931757926941" ;
+        mo:hasFamilyValue       "1.25818979740143" ;
+        mo:hasHealthValue       "0.65078467130661" ;
+        mo:hasFreedomValue      "0.208715528249741" ;
+        mo:hasGenerosityValue   "0.220125883817673" ;
+        mo:hasTrustValue        "0.0409037806093693" ;
+        mo:hasDystopiaValue     "1.94708442687988" .
+
+<http://dbpedia.org/resource/Jordan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Jordan" ;
+        dbp:rank                74 ;
+        mo:hasHappinessValue    "5.33599996566772" ;
+        mo:hasWhiskerHighValue  "5.44841002240777" ;
+        mo:hasWhiskerLowValue   "5.22358990892768" ;
+        mo:hasEconomyValue      "0.991012394428253" ;
+        mo:hasFamilyValue       "1.23908889293671" ;
+        mo:hasHealthValue       "0.604590058326721" ;
+        mo:hasFreedomValue      "0.418421149253845" ;
+        mo:hasGenerosityValue   "0.172170460224152" ;
+        mo:hasTrustValue        "0.11980327218771" ;
+        mo:hasDystopiaValue     "1.79117655754089" .
+
+<http://dbpedia.org/resource/Hungary>
+        rdf:type                dbp:Country ;
+        dbp:name                "Hungary" ;
+        dbp:rank                75 ;
+        mo:hasHappinessValue    "5.32399988174438" ;
+        mo:hasWhiskerHighValue  "5.40303970918059" ;
+        mo:hasWhiskerLowValue   "5.24496005430818" ;
+        mo:hasEconomyValue      "1.2860119342804" ;
+        mo:hasFamilyValue       "1.34313309192657" ;
+        mo:hasHealthValue       "0.687763452529907" ;
+        mo:hasFreedomValue      "0.175863519310951" ;
+        mo:hasGenerosityValue   "0.0784016624093056" ;
+        mo:hasTrustValue        "0.0366369374096394" ;
+        mo:hasDystopiaValue     "1.71645927429199" .
+
+<http://dbpedia.org/resource/Jamaica>
+        rdf:type                dbp:Country ;
+        dbp:name                "Jamaica" ;
+        dbp:rank                76 ;
+        mo:hasHappinessValue    "5.31099987030029" ;
+        mo:hasWhiskerHighValue  "5.58139872848988" ;
+        mo:hasWhiskerLowValue   "5.04060101211071" ;
+        mo:hasEconomyValue      "0.925579309463501" ;
+        mo:hasFamilyValue       "1.36821806430817" ;
+        mo:hasHealthValue       "0.641022384166718" ;
+        mo:hasFreedomValue      "0.474307239055634" ;
+        mo:hasGenerosityValue   "0.233818337321281" ;
+        mo:hasTrustValue        "0.0552677810192108" ;
+        mo:hasDystopiaValue     "1.61232566833496" .
+
+<http://dbpedia.org/resource/Croatia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Croatia" ;
+        dbp:rank                77 ;
+        mo:hasHappinessValue    "5.29300022125244" ;
+        mo:hasWhiskerHighValue  "5.39177720457315" ;
+        mo:hasWhiskerLowValue   "5.19422323793173" ;
+        mo:hasEconomyValue      "1.22255623340607" ;
+        mo:hasFamilyValue       "0.96798300743103" ;
+        mo:hasHealthValue       "0.701288521289825" ;
+        mo:hasFreedomValue      "0.255772292613983" ;
+        mo:hasGenerosityValue   "0.248002976179123" ;
+        mo:hasTrustValue        "0.0431031100451946" ;
+        mo:hasDystopiaValue     "1.85449242591858" .
+
+<http://dbpedia.org/resource/Kosovo>
+        rdf:type                dbp:Country ;
+        dbp:name                "Kosovo" ;
+        dbp:rank                78 ;
+        mo:hasHappinessValue    "5.27899980545044" ;
+        mo:hasWhiskerHighValue  "5.36484799548984" ;
+        mo:hasWhiskerLowValue   "5.19315161541104" ;
+        mo:hasEconomyValue      "0.951484382152557" ;
+        mo:hasFamilyValue       "1.13785350322723" ;
+        mo:hasHealthValue       "0.541452050209045" ;
+        mo:hasFreedomValue      "0.260287940502167" ;
+        mo:hasGenerosityValue   "0.319931447505951" ;
+        mo:hasTrustValue        "0.0574716180562973" ;
+        mo:hasDystopiaValue     "2.01054072380066" .
+
+<http://dbpedia.org/resource/China>
+        rdf:type                dbp:Country ;
+        dbp:name                "China" ;
+        dbp:rank                79 ;
+        mo:hasHappinessValue    "5.27299976348877" ;
+        mo:hasWhiskerHighValue  "5.31927808977663" ;
+        mo:hasWhiskerLowValue   "5.2267214372009" ;
+        mo:hasEconomyValue      "1.08116579055786" ;
+        mo:hasFamilyValue       "1.16083741188049" ;
+        mo:hasHealthValue       "0.741415500640869" ;
+        mo:hasFreedomValue      "0.472787708044052" ;
+        mo:hasGenerosityValue   "0.0288068410009146" ;
+        mo:hasTrustValue        "0.0227942746132612" ;
+        mo:hasDystopiaValue     "1.76493859291077" .
+
+<http://dbpedia.org/resource/Pakistan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Pakistan" ;
+        dbp:rank                80 ;
+        mo:hasHappinessValue    "5.26900005340576" ;
+        mo:hasWhiskerHighValue  "5.35998364135623" ;
+        mo:hasWhiskerLowValue   "5.17801646545529" ;
+        mo:hasEconomyValue      "0.72688353061676" ;
+        mo:hasFamilyValue       "0.672690689563751" ;
+        mo:hasHealthValue       "0.402047783136368" ;
+        mo:hasFreedomValue      "0.23521526157856" ;
+        mo:hasGenerosityValue   "0.315446019172668" ;
+        mo:hasTrustValue        "0.124348066747189" ;
+        mo:hasDystopiaValue     "2.79248929023743" .
+
+<http://dbpedia.org/resource/Indonesia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Indonesia" ;
+        dbp:rank                81 ;
+        mo:hasHappinessValue    "5.26200008392334" ;
+        mo:hasWhiskerHighValue  "5.35288859814405" ;
+        mo:hasWhiskerLowValue   "5.17111156970263" ;
+        mo:hasEconomyValue      "0.995538592338562" ;
+        mo:hasFamilyValue       "1.27444469928741" ;
+        mo:hasHealthValue       "0.492345720529556" ;
+        mo:hasFreedomValue      "0.443323463201523" ;
+        mo:hasGenerosityValue   "0.611704587936401" ;
+        mo:hasTrustValue        "0.0153171354904771" ;
+        mo:hasDystopiaValue     "1.42947697639465" .
+
+<http://dbpedia.org/resource/Venezuela>
+        rdf:type                dbp:Country ;
+        dbp:name                "Venezuela" ;
+        dbp:rank                82 ;
+        mo:hasHappinessValue    "5.25" ;
+        mo:hasWhiskerHighValue  "5.3700319455564" ;
+        mo:hasWhiskerLowValue   "5.1299680544436" ;
+        mo:hasEconomyValue      "1.12843120098114" ;
+        mo:hasFamilyValue       "1.43133759498596" ;
+        mo:hasHealthValue       "0.617144227027893" ;
+        mo:hasFreedomValue      "0.153997123241425" ;
+        mo:hasGenerosityValue   "0.0650196298956871" ;
+        mo:hasTrustValue        "0.0644911229610443" ;
+        mo:hasDystopiaValue     "1.78946375846863" .
+
+<http://dbpedia.org/resource/Montenegro>
+        rdf:type                dbp:Country ;
+        dbp:name                "Montenegro" ;
+        dbp:rank                83 ;
+        mo:hasHappinessValue    "5.23699998855591" ;
+        mo:hasWhiskerHighValue  "5.34104444056749" ;
+        mo:hasWhiskerLowValue   "5.13295553654432" ;
+        mo:hasEconomyValue      "1.12112903594971" ;
+        mo:hasFamilyValue       "1.23837649822235" ;
+        mo:hasHealthValue       "0.667464673519135" ;
+        mo:hasFreedomValue      "0.194989055395126" ;
+        mo:hasGenerosityValue   "0.197911024093628" ;
+        mo:hasTrustValue        "0.0881741940975189" ;
+        mo:hasDystopiaValue     "1.72919154167175" .
+
+<http://dbpedia.org/resource/Morocco>
+        rdf:type                dbp:Country ;
+        dbp:name                "Morocco" ;
+        dbp:rank                84 ;
+        mo:hasHappinessValue    "5.2350001335144" ;
+        mo:hasWhiskerHighValue  "5.31834096476436" ;
+        mo:hasWhiskerLowValue   "5.15165930226445" ;
+        mo:hasEconomyValue      "0.878114581108093" ;
+        mo:hasFamilyValue       "0.774864435195923" ;
+        mo:hasHealthValue       "0.59771066904068" ;
+        mo:hasFreedomValue      "0.408158332109451" ;
+        mo:hasGenerosityValue   "0.0322099551558495" ;
+        mo:hasTrustValue        "0.0877631828188896" ;
+        mo:hasDystopiaValue     "2.45618939399719" .
+
+<http://dbpedia.org/resource/Azerbaijan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Azerbaijan" ;
+        dbp:rank                85 ;
+        mo:hasHappinessValue    "5.23400020599365" ;
+        mo:hasWhiskerHighValue  "5.29928653523326" ;
+        mo:hasWhiskerLowValue   "5.16871387675405" ;
+        mo:hasEconomyValue      "1.15360176563263" ;
+        mo:hasFamilyValue       "1.15240025520325" ;
+        mo:hasHealthValue       "0.540775775909424" ;
+        mo:hasFreedomValue      "0.398155838251114" ;
+        mo:hasGenerosityValue   "0.0452693402767181" ;
+        mo:hasTrustValue        "0.180987507104874" ;
+        mo:hasDystopiaValue     "1.76248168945312" .
+
+<http://dbpedia.org/resource/Dominican_Republic>
+        rdf:type                dbp:Country ;
+        dbp:name                "Dominican Republic" ;
+        dbp:rank                86 ;
+        mo:hasHappinessValue    "5.23000001907349" ;
+        mo:hasWhiskerHighValue  "5.34906088516116" ;
+        mo:hasWhiskerLowValue   "5.11093915298581" ;
+        mo:hasEconomyValue      "1.07937383651733" ;
+        mo:hasFamilyValue       "1.40241670608521" ;
+        mo:hasHealthValue       "0.574873745441437" ;
+        mo:hasFreedomValue      "0.55258983373642" ;
+        mo:hasGenerosityValue   "0.186967849731445" ;
+        mo:hasTrustValue        "0.113945253193378" ;
+        mo:hasDystopiaValue     "1.31946516036987" .
+
+<http://dbpedia.org/resource/Greece>
+        rdf:type                dbp:Country ;
+        dbp:name                "Greece" ;
+        dbp:rank                87 ;
+        mo:hasHappinessValue    "5.22700023651123" ;
+        mo:hasWhiskerHighValue  "5.3252461694181" ;
+        mo:hasWhiskerLowValue   "5.12875430360436" ;
+        mo:hasEconomyValue      "1.28948748111725" ;
+        mo:hasFamilyValue       "1.23941457271576" ;
+        mo:hasHealthValue       "0.810198903083801" ;
+        mo:hasFreedomValue      "0.0957312509417534" ;
+        mo:hasGenerosityValue   "0" ;
+        mo:hasTrustValue        "0.04328977689147" ;
+        mo:hasDystopiaValue     "1.74922156333923" .
+
+<http://dbpedia.org/resource/Lebanon>
+        rdf:type                dbp:Country ;
+        dbp:name                "Lebanon" ;
+        dbp:rank                88 ;
+        mo:hasHappinessValue    "5.22499990463257" ;
+        mo:hasWhiskerHighValue  "5.31888228848577" ;
+        mo:hasWhiskerLowValue   "5.13111752077937" ;
+        mo:hasEconomyValue      "1.07498753070831" ;
+        mo:hasFamilyValue       "1.12962424755096" ;
+        mo:hasHealthValue       "0.735081076622009" ;
+        mo:hasFreedomValue      "0.288515985012054" ;
+        mo:hasGenerosityValue   "0.264450758695602" ;
+        mo:hasTrustValue        "0.037513829767704" ;
+        mo:hasDystopiaValue     "1.69507384300232" .
+
+<http://dbpedia.org/resource/Portugal>
+        rdf:type                dbp:Country ;
+        dbp:name                "Portugal" ;
+        dbp:rank                89 ;
+        mo:hasHappinessValue    "5.19500017166138" ;
+        mo:hasWhiskerHighValue  "5.28504173308611" ;
+        mo:hasWhiskerLowValue   "5.10495861023665" ;
+        mo:hasEconomyValue      "1.3151752948761" ;
+        mo:hasFamilyValue       "1.36704301834106" ;
+        mo:hasHealthValue       "0.795843541622162" ;
+        mo:hasFreedomValue      "0.498465299606323" ;
+        mo:hasGenerosityValue   "0.0951027125120163" ;
+        mo:hasTrustValue        "0.0158694516867399" ;
+        mo:hasDystopiaValue     "1.10768270492554" .
+
+<http://dbpedia.org/resource/Bosnia_and_Herzegovina>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bosnia and Herzegovina" ;
+        dbp:rank                90 ;
+        mo:hasHappinessValue    "5.18200016021729" ;
+        mo:hasWhiskerHighValue  "5.27633568674326" ;
+        mo:hasWhiskerLowValue   "5.08766463369131" ;
+        mo:hasEconomyValue      "0.982409417629242" ;
+        mo:hasFamilyValue       "1.0693359375" ;
+        mo:hasHealthValue       "0.705186307430267" ;
+        mo:hasFreedomValue      "0.204403176903725" ;
+        mo:hasGenerosityValue   "0.328867495059967" ;
+        mo:hasTrustValue        "0" ;
+        mo:hasDystopiaValue     "1.89217257499695" .
+
+<http://dbpedia.org/resource/Honduras>
+        rdf:type                dbp:Country ;
+        dbp:name                "Honduras" ;
+        dbp:rank                91 ;
+        mo:hasHappinessValue    "5.18100023269653" ;
+        mo:hasWhiskerHighValue  "5.30158279687166" ;
+        mo:hasWhiskerLowValue   "5.0604176685214" ;
+        mo:hasEconomyValue      "0.730573117733002" ;
+        mo:hasFamilyValue       "1.14394497871399" ;
+        mo:hasHealthValue       "0.582569479942322" ;
+        mo:hasFreedomValue      "0.348079860210419" ;
+        mo:hasGenerosityValue   "0.236188873648643" ;
+        mo:hasTrustValue        "0.0733454525470734" ;
+        mo:hasDystopiaValue     "2.06581115722656" .
+
+<http://dbpedia.org/resource/Macedonia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Macedonia" ;
+        dbp:rank                92 ;
+        mo:hasHappinessValue    "5.17500019073486" ;
+        mo:hasWhiskerHighValue  "5.27217263966799" ;
+        mo:hasWhiskerLowValue   "5.07782774180174" ;
+        mo:hasEconomyValue      "1.06457793712616" ;
+        mo:hasFamilyValue       "1.20789301395416" ;
+        mo:hasHealthValue       "0.644948184490204" ;
+        mo:hasFreedomValue      "0.325905978679657" ;
+        mo:hasGenerosityValue   "0.25376096367836" ;
+        mo:hasTrustValue        "0.0602777935564518" ;
+        mo:hasDystopiaValue     "1.6174693107605" .
+
+<http://dbpedia.org/resource/Somalia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Somalia" ;
+        dbp:rank                93 ;
+        mo:hasHappinessValue    "5.15100002288818" ;
+        mo:hasWhiskerHighValue  "5.24248370990157" ;
+        mo:hasWhiskerLowValue   "5.0595163358748" ;
+        mo:hasEconomyValue      "0.0226431842893362" ;
+        mo:hasFamilyValue       "0.721151351928711" ;
+        mo:hasHealthValue       "0.113989137113094" ;
+        mo:hasFreedomValue      "0.602126955986023" ;
+        mo:hasGenerosityValue   "0.291631311178207" ;
+        mo:hasTrustValue        "0.282410323619843" ;
+        mo:hasDystopiaValue     "3.11748456954956" .
+
+<http://dbpedia.org/resource/Vietnam>
+        rdf:type                dbp:Country ;
+        dbp:name                "Vietnam" ;
+        dbp:rank                94 ;
+        mo:hasHappinessValue    "5.07399988174438" ;
+        mo:hasWhiskerHighValue  "5.14728076457977" ;
+        mo:hasWhiskerLowValue   "5.000718998909" ;
+        mo:hasEconomyValue      "0.788547575473785" ;
+        mo:hasFamilyValue       "1.27749133110046" ;
+        mo:hasHealthValue       "0.652168989181519" ;
+        mo:hasFreedomValue      "0.571055591106415" ;
+        mo:hasGenerosityValue   "0.234968051314354" ;
+        mo:hasTrustValue        "0.0876332372426987" ;
+        mo:hasDystopiaValue     "1.46231865882874" .
+
+<http://dbpedia.org/resource/Nigeria>
+        rdf:type                dbp:Country ;
+        dbp:name                "Nigeria" ;
+        dbp:rank                95 ;
+        mo:hasHappinessValue    "5.07399988174438" ;
+        mo:hasWhiskerHighValue  "5.20950013548136" ;
+        mo:hasWhiskerLowValue   "4.93849962800741" ;
+        mo:hasEconomyValue      "0.783756256103516" ;
+        mo:hasFamilyValue       "1.21577048301697" ;
+        mo:hasHealthValue       "0.0569157302379608" ;
+        mo:hasFreedomValue      "0.394952565431595" ;
+        mo:hasGenerosityValue   "0.230947196483612" ;
+        mo:hasTrustValue        "0.0261215660721064" ;
+        mo:hasDystopiaValue     "2.36539053916931" .
+
+<http://dbpedia.org/resource/Tajikistan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Tajikistan" ;
+        dbp:rank                96 ;
+        mo:hasHappinessValue    "5.04099988937378" ;
+        mo:hasWhiskerHighValue  "5.11142559587956" ;
+        mo:hasWhiskerLowValue   "4.970574182868" ;
+        mo:hasEconomyValue      "0.524713635444641" ;
+        mo:hasFamilyValue       "1.27146327495575" ;
+        mo:hasHealthValue       "0.529235124588013" ;
+        mo:hasFreedomValue      "0.471566706895828" ;
+        mo:hasGenerosityValue   "0.248997643589973" ;
+        mo:hasTrustValue        "0.146377146244049" ;
+        mo:hasDystopiaValue     "1.84904932975769" .
+
+<http://dbpedia.org/resource/Bhutan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bhutan" ;
+        dbp:rank                97 ;
+        mo:hasHappinessValue    "5.01100015640259" ;
+        mo:hasWhiskerHighValue  "5.07933456212282" ;
+        mo:hasWhiskerLowValue   "4.94266575068235" ;
+        mo:hasEconomyValue      "0.885416388511658" ;
+        mo:hasFamilyValue       "1.34012651443481" ;
+        mo:hasHealthValue       "0.495879292488098" ;
+        mo:hasFreedomValue      "0.501537680625916" ;
+        mo:hasGenerosityValue   "0.474054545164108" ;
+        mo:hasTrustValue        "0.173380389809608" ;
+        mo:hasDystopiaValue     "1.14018440246582" .
+
+<http://dbpedia.org/resource/Kyrgyzstan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Kyrgyzstan" ;
+        dbp:rank                98 ;
+        mo:hasHappinessValue    "5.00400018692017" ;
+        mo:hasWhiskerHighValue  "5.08991990312934" ;
+        mo:hasWhiskerLowValue   "4.91808047071099" ;
+        mo:hasEconomyValue      "0.596220076084137" ;
+        mo:hasFamilyValue       "1.39423859119415" ;
+        mo:hasHealthValue       "0.553457796573639" ;
+        mo:hasFreedomValue      "0.454943388700485" ;
+        mo:hasGenerosityValue   "0.42858037352562" ;
+        mo:hasTrustValue        "0.0394391790032387" ;
+        mo:hasDystopiaValue     "1.53672313690186" .
+
+<http://dbpedia.org/resource/Mongolia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mongolia" ;
+        dbp:rank                100 ;
+        mo:hasHappinessValue    "4.95499992370605" ;
+        mo:hasWhiskerHighValue  "5.0216795091331" ;
+        mo:hasWhiskerLowValue   "4.88832033827901" ;
+        mo:hasEconomyValue      "1.02723586559296" ;
+        mo:hasFamilyValue       "1.4930112361908" ;
+        mo:hasHealthValue       "0.557783484458923" ;
+        mo:hasFreedomValue      "0.394143968820572" ;
+        mo:hasGenerosityValue   "0.338464230298996" ;
+        mo:hasTrustValue        "0.0329022891819477" ;
+        mo:hasDystopiaValue     "1.11129236221313" .
+
+<http://dbpedia.org/resource/South_Africa>
+        rdf:type                dbp:Country ;
+        dbp:name                "South_Africa" ;
+        dbp:rank                101 ;
+        mo:hasHappinessValue    "4.8289999961853" ;
+        mo:hasWhiskerHighValue  "4.92943518772721" ;
+        mo:hasWhiskerLowValue   "4.72856480464339" ;
+        mo:hasEconomyValue      "1.05469870567322" ;
+        mo:hasFamilyValue       "1.38478863239288" ;
+        mo:hasHealthValue       "0.187080070376396" ;
+        mo:hasFreedomValue      "0.479246735572815" ;
+        mo:hasGenerosityValue   "0.139362379908562" ;
+        mo:hasTrustValue        "0.0725094974040985" ;
+        mo:hasDystopiaValue     "1.51090860366821" .
+
+<http://dbpedia.org/resource/Tunisia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Tunisia" ;
+        dbp:rank                102 ;
+        mo:hasHappinessValue    "4.80499982833862" ;
+        mo:hasWhiskerHighValue  "4.88436700701714" ;
+        mo:hasWhiskerLowValue   "4.72563264966011" ;
+        mo:hasEconomyValue      "1.00726580619812" ;
+        mo:hasFamilyValue       "0.868351459503174" ;
+        mo:hasHealthValue       "0.613212049007416" ;
+        mo:hasFreedomValue      "0.289680689573288" ;
+        mo:hasGenerosityValue   "0.0496933571994305" ;
+        mo:hasTrustValue        "0.0867231488227844" ;
+        mo:hasDystopiaValue     "1.89025115966797" .
+
+<http://dbpedia.org/resource/Egypt>
+        rdf:type                dbp:Country ;
+        dbp:name                "Egypt" ;
+        dbp:rank                104 ;
+        mo:hasHappinessValue    "4.7350001335144" ;
+        mo:hasWhiskerHighValue  "4.82513378962874" ;
+        mo:hasWhiskerLowValue   "4.64486647740006" ;
+        mo:hasEconomyValue      "0.989701807498932" ;
+        mo:hasFamilyValue       "0.997471392154694" ;
+        mo:hasHealthValue       "0.520187258720398" ;
+        mo:hasFreedomValue      "0.282110154628754" ;
+        mo:hasGenerosityValue   "0.128631442785263" ;
+        mo:hasTrustValue        "0.114381365478039" ;
+        mo:hasDystopiaValue     "1.70216107368469" .
+
+<http://dbpedia.org/resource/Bulgaria>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bulgaria" ;
+        dbp:rank                105 ;
+        mo:hasHappinessValue    "4.71400022506714" ;
+        mo:hasWhiskerHighValue  "4.80369470641017" ;
+        mo:hasWhiskerLowValue   "4.62430574372411" ;
+        mo:hasEconomyValue      "1.1614590883255" ;
+        mo:hasFamilyValue       "1.43437945842743" ;
+        mo:hasHealthValue       "0.708217680454254" ;
+        mo:hasFreedomValue      "0.289231717586517" ;
+        mo:hasGenerosityValue   "0.113177694380283" ;
+        mo:hasTrustValue        "0.0110515309497714" ;
+        mo:hasDystopiaValue     "0.996139287948608" .
+
+<http://dbpedia.org/resource/Sierra_Leone>
+        rdf:type                dbp:Country ;
+        dbp:name                "Sierra Leone" ;
+        dbp:rank                106 ;
+        mo:hasHappinessValue    "4.70900011062622" ;
+        mo:hasWhiskerHighValue  "4.85064333498478" ;
+        mo:hasWhiskerLowValue   "4.56735688626766" ;
+        mo:hasEconomyValue      "0.36842092871666" ;
+        mo:hasFamilyValue       "0.984136044979095" ;
+        mo:hasHealthValue       "0.00556475389748812" ;
+        mo:hasFreedomValue      "0.318697690963745" ;
+        mo:hasGenerosityValue   "0.293040901422501" ;
+        mo:hasTrustValue        "0.0710951760411263" ;
+        mo:hasDystopiaValue     "2.66845989227295" .
+
+<http://dbpedia.org/resource/Cameroon>
+        rdf:type                dbp:Country ;
+        dbp:name                "Cameroon" ;
+        dbp:rank                107 ;
+        mo:hasHappinessValue    "4.69500017166138" ;
+        mo:hasWhiskerHighValue  "4.79654085725546" ;
+        mo:hasWhiskerLowValue   "4.5934594860673" ;
+        mo:hasEconomyValue      "0.564305365085602" ;
+        mo:hasFamilyValue       "0.946018218994141" ;
+        mo:hasHealthValue       "0.132892116904259" ;
+        mo:hasFreedomValue      "0.430388748645782" ;
+        mo:hasGenerosityValue   "0.236298456788063" ;
+        mo:hasTrustValue        "0.0513066314160824" ;
+        mo:hasDystopiaValue     "2.3336455821991" .
+
+<http://dbpedia.org/resource/Iran>
+        rdf:type                dbp:Country ;
+        dbp:name                "Iran" ;
+        dbp:rank                108 ;
+        mo:hasHappinessValue    "4.69199991226196" ;
+        mo:hasWhiskerHighValue  "4.79822470769286" ;
+        mo:hasWhiskerLowValue   "4.58577511683106" ;
+        mo:hasEconomyValue      "1.15687310695648" ;
+        mo:hasFamilyValue       "0.711551249027252" ;
+        mo:hasHealthValue       "0.639333188533783" ;
+        mo:hasFreedomValue      "0.249322608113289" ;
+        mo:hasGenerosityValue   "0.387242913246155" ;
+        mo:hasTrustValue        "0.048761073499918" ;
+        mo:hasDystopiaValue     "1.49873495101929" .
+
+<http://dbpedia.org/resource/Albania>
+        rdf:type                dbp:Country ;
+        dbp:name                "Albania" ;
+        dbp:rank                109 ;
+        mo:hasHappinessValue    "4.64400005340576" ;
+        mo:hasWhiskerHighValue  "4.75246400639415" ;
+        mo:hasWhiskerLowValue   "4.53553610041738" ;
+        mo:hasEconomyValue      "0.996192753314972" ;
+        mo:hasFamilyValue       "0.803685247898102" ;
+        mo:hasHealthValue       "0.731159746646881" ;
+        mo:hasFreedomValue      "0.381498634815216" ;
+        mo:hasGenerosityValue   "0.201312944293022" ;
+        mo:hasTrustValue        "0.0398642159998417" ;
+        mo:hasDystopiaValue     "1.49044156074524" .
+
+<http://dbpedia.org/resource/Bangladesh>
+        rdf:type                dbp:Country ;
+        dbp:name                "Bangladesh" ;
+        dbp:rank                110 ;
+        mo:hasHappinessValue    "4.60799980163574" ;
+        mo:hasWhiskerHighValue  "4.68982165828347" ;
+        mo:hasWhiskerLowValue   "4.52617794498801" ;
+        mo:hasEconomyValue      "0.586682975292206" ;
+        mo:hasFamilyValue       "0.735131740570068" ;
+        mo:hasHealthValue       "0.533241033554077" ;
+        mo:hasFreedomValue      "0.478356659412384" ;
+        mo:hasGenerosityValue   "0.172255352139473" ;
+        mo:hasTrustValue        "0.123717859387398" ;
+        mo:hasDystopiaValue     "1.97873616218567" .
+
+<http://dbpedia.org/resource/Namibia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Namibia" ;
+        dbp:rank                111 ;
+        mo:hasHappinessValue    "4.57399988174438" ;
+        mo:hasWhiskerHighValue  "4.77035474091768" ;
+        mo:hasWhiskerLowValue   "4.37764502257109" ;
+        mo:hasEconomyValue      "0.964434325695038" ;
+        mo:hasFamilyValue       "1.0984708070755" ;
+        mo:hasHealthValue       "0.33861181139946" ;
+        mo:hasFreedomValue      "0.520303547382355" ;
+        mo:hasGenerosityValue   "0.0771337449550629" ;
+        mo:hasTrustValue        "0.0931469723582268" ;
+        mo:hasDystopiaValue     "1.4818902015686" .
+
+<http://dbpedia.org/resource/Kenya>
+        rdf:type                dbp:Country ;
+        dbp:name                "Kenya" ;
+        dbp:rank                112 ;
+        mo:hasHappinessValue    "4.55299997329712" ;
+        mo:hasWhiskerHighValue  "4.65569159060717" ;
+        mo:hasWhiskerLowValue   "4.45030835598707" ;
+        mo:hasEconomyValue      "0.560479462146759" ;
+        mo:hasFamilyValue       "1.06795072555542" ;
+        mo:hasHealthValue       "0.309988349676132" ;
+        mo:hasFreedomValue      "0.452763766050339" ;
+        mo:hasGenerosityValue   "0.444860309362411" ;
+        mo:hasTrustValue        "0.0646413192152977" ;
+        mo:hasDystopiaValue     "1.6519021987915" .
+
+<http://dbpedia.org/resource/Mozambique>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mozambique" ;
+        dbp:rank                113 ;
+        mo:hasHappinessValue    "4.55000019073486" ;
+        mo:hasWhiskerHighValue  "4.77410232633352" ;
+        mo:hasWhiskerLowValue   "4.3258980551362" ;
+        mo:hasEconomyValue      "0.234305649995804" ;
+        mo:hasFamilyValue       "0.870701014995575" ;
+        mo:hasHealthValue       "0.106654435396194" ;
+        mo:hasFreedomValue      "0.480791091918945" ;
+        mo:hasGenerosityValue   "0.322228103876114" ;
+        mo:hasTrustValue        "0.179436385631561" ;
+        mo:hasDystopiaValue     "2.35565090179443" .
+
+<http://dbpedia.org/resource/Myanmar>
+        rdf:type                dbp:Country ;
+        dbp:name                "Myanmar" ;
+        dbp:rank                114 ;
+        mo:hasHappinessValue    "4.54500007629395" ;
+        mo:hasWhiskerHighValue  "4.61473994642496" ;
+        mo:hasWhiskerLowValue   "4.47526020616293" ;
+        mo:hasEconomyValue      "0.367110550403595" ;
+        mo:hasFamilyValue       "1.12323594093323" ;
+        mo:hasHealthValue       "0.397522568702698" ;
+        mo:hasFreedomValue      "0.514492034912109" ;
+        mo:hasGenerosityValue   "0.838075160980225" ;
+        mo:hasTrustValue        "0.188816204667091" ;
+        mo:hasDystopiaValue     "1.11529040336609" .
+
+<http://dbpedia.org/resource/Senegal>
+        rdf:type                dbp:Country ;
+        dbp:name                "Senegal" ;
+        dbp:rank                115 ;
+        mo:hasHappinessValue    "4.53499984741211" ;
+        mo:hasWhiskerHighValue  "4.6016037812829" ;
+        mo:hasWhiskerLowValue   "4.46839591354132" ;
+        mo:hasEconomyValue      "0.479309022426605" ;
+        mo:hasFamilyValue       "1.17969191074371" ;
+        mo:hasHealthValue       "0.409362852573395" ;
+        mo:hasFreedomValue      "0.377922266721725" ;
+        mo:hasGenerosityValue   "0.183468893170357" ;
+        mo:hasTrustValue        "0.115460447967052" ;
+        mo:hasDystopiaValue     "1.78964614868164" .
+
+<http://dbpedia.org/resource/Zambia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Zambia" ;
+        dbp:rank                116 ;
+        mo:hasHappinessValue    "4.51399993896484" ;
+        mo:hasWhiskerHighValue  "4.64410550147295" ;
+        mo:hasWhiskerLowValue   "4.38389437645674" ;
+        mo:hasEconomyValue      "0.636406779289246" ;
+        mo:hasFamilyValue       "1.00318729877472" ;
+        mo:hasHealthValue       "0.257835894823074" ;
+        mo:hasFreedomValue      "0.461603492498398" ;
+        mo:hasGenerosityValue   "0.249580144882202" ;
+        mo:hasTrustValue        "0.0782135501503944" ;
+        mo:hasDystopiaValue     "1.82670545578003" .
+
+<http://dbpedia.org/resource/Iraq>
+        rdf:type                dbp:Country ;
+        dbp:name                "Iraq" ;
+        dbp:rank                117 ;
+        mo:hasHappinessValue    "4.49700021743774" ;
+        mo:hasWhiskerHighValue  "4.62259140968323" ;
+        mo:hasWhiskerLowValue   "4.37140902519226" ;
+        mo:hasEconomyValue      "1.10271048545837" ;
+        mo:hasFamilyValue       "0.978613197803497" ;
+        mo:hasHealthValue       "0.501180469989777" ;
+        mo:hasFreedomValue      "0.288555532693863" ;
+        mo:hasGenerosityValue   "0.19963726401329" ;
+        mo:hasTrustValue        "0.107215754687786" ;
+        mo:hasDystopiaValue     "1.31890726089478" .
+
+<http://dbpedia.org/resource/Gabon>
+        rdf:type                dbp:Country ;
+        dbp:name                "Gabon" ;
+        dbp:rank                118 ;
+        mo:hasHappinessValue    "4.46500015258789" ;
+        mo:hasWhiskerHighValue  "4.5573617656529" ;
+        mo:hasWhiskerLowValue   "4.37263853952289" ;
+        mo:hasEconomyValue      "1.1982102394104" ;
+        mo:hasFamilyValue       "1.1556202173233" ;
+        mo:hasHealthValue       "0.356578588485718" ;
+        mo:hasFreedomValue      "0.312328577041626" ;
+        mo:hasGenerosityValue   "0.0437853783369064" ;
+        mo:hasTrustValue        "0.0760467872023582" ;
+        mo:hasDystopiaValue     "1.32291626930237" .
+
+<http://dbpedia.org/resource/Ethiopia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ethiopia" ;
+        dbp:rank                119 ;
+        mo:hasHappinessValue    "4.46000003814697" ;
+        mo:hasWhiskerHighValue  "4.54272867664695" ;
+        mo:hasWhiskerLowValue   "4.377271399647" ;
+        mo:hasEconomyValue      "0.339233845472336" ;
+        mo:hasFamilyValue       "0.86466920375824" ;
+        mo:hasHealthValue       "0.353409707546234" ;
+        mo:hasFreedomValue      "0.408842742443085" ;
+        mo:hasGenerosityValue   "0.312650740146637" ;
+        mo:hasTrustValue        "0.165455713868141" ;
+        mo:hasDystopiaValue     "2.01574373245239" .
+
+<http://dbpedia.org/resource/Sri_Lanka>
+        rdf:type                dbp:Country ;
+        dbp:name                "Sri Lanka" ;
+        dbp:rank                120 ;
+        mo:hasHappinessValue    "4.44000005722046" ;
+        mo:hasWhiskerHighValue  "4.55344719231129" ;
+        mo:hasWhiskerLowValue   "4.32655292212963" ;
+        mo:hasEconomyValue      "1.00985014438629" ;
+        mo:hasFamilyValue       "1.25997638702393" ;
+        mo:hasHealthValue       "0.625130832195282" ;
+        mo:hasFreedomValue      "0.561213254928589" ;
+        mo:hasGenerosityValue   "0.490863561630249" ;
+        mo:hasTrustValue        "0.0736539661884308" ;
+        mo:hasDystopiaValue     "0.419389247894287" .
+
+<http://dbpedia.org/resource/Armenia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Armenia" ;
+        dbp:rank                121 ;
+        mo:hasHappinessValue    "4.37599992752075" ;
+        mo:hasWhiskerHighValue  "4.46673461228609" ;
+        mo:hasWhiskerLowValue   "4.28526524275541" ;
+        mo:hasEconomyValue      "0.900596737861633" ;
+        mo:hasFamilyValue       "1.00748372077942" ;
+        mo:hasHealthValue       "0.637524425983429" ;
+        mo:hasFreedomValue      "0.198303267359734" ;
+        mo:hasGenerosityValue   "0.0834880918264389" ;
+        mo:hasTrustValue        "0.0266744215041399" ;
+        mo:hasDystopiaValue     "1.5214991569519" .
+
+<http://dbpedia.org/resource/India>
+        rdf:type                dbp:Country ;
+        dbp:name                "India" ;
+        dbp:rank                122 ;
+        mo:hasHappinessValue    "4.31500005722046" ;
+        mo:hasWhiskerHighValue  "4.37152201749384" ;
+        mo:hasWhiskerLowValue   "4.25847809694707" ;
+        mo:hasEconomyValue      "0.792221248149872" ;
+        mo:hasFamilyValue       "0.754372596740723" ;
+        mo:hasHealthValue       "0.455427616834641" ;
+        mo:hasFreedomValue      "0.469987004995346" ;
+        mo:hasGenerosityValue   "0.231538489460945" ;
+        mo:hasTrustValue        "0.0922268852591515" ;
+        mo:hasDystopiaValue     "1.5191171169281" .
+
+<http://dbpedia.org/resource/Mauritania>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mauritania" ;
+        dbp:rank                123 ;
+        mo:hasHappinessValue    "4.29199981689453" ;
+        mo:hasWhiskerHighValue  "4.37716361626983" ;
+        mo:hasWhiskerLowValue   "4.20683601751924" ;
+        mo:hasEconomyValue      "0.648457288742065" ;
+        mo:hasFamilyValue       "1.2720308303833" ;
+        mo:hasHealthValue       "0.285349279642105" ;
+        mo:hasFreedomValue      "0.0960980430245399" ;
+        mo:hasGenerosityValue   "0.201870024204254" ;
+        mo:hasTrustValue        "0.136957004666328" ;
+        mo:hasDystopiaValue     "1.65163731575012" .
+
+<http://dbpedia.org/resource/Republic_of_the_Congo>
+        rdf:type                dbp:Country ;
+        dbp:name                "Republic of the Congo" ;
+        dbp:rank                124 ;
+        mo:hasHappinessValue    "4.29099988937378" ;
+        mo:hasWhiskerHighValue  "4.41005350500345" ;
+        mo:hasWhiskerLowValue   "4.17194627374411" ;
+        mo:hasEconomyValue      "0.808964252471924" ;
+        mo:hasFamilyValue       "0.832044363021851" ;
+        mo:hasHealthValue       "0.28995743393898" ;
+        mo:hasFreedomValue      "0.435025870800018" ;
+        mo:hasGenerosityValue   "0.120852127671242" ;
+        mo:hasTrustValue        "0.0796181336045265" ;
+        mo:hasDystopiaValue     "1.72413563728333" .
+
+<http://dbpedia.org/resource/Georgia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Georgia" ;
+        dbp:rank                125 ;
+        mo:hasHappinessValue    "4.28599977493286" ;
+        mo:hasWhiskerHighValue  "4.37493396580219" ;
+        mo:hasWhiskerLowValue   "4.19706558406353" ;
+        mo:hasEconomyValue      "0.950612664222717" ;
+        mo:hasFamilyValue       "0.57061493396759" ;
+        mo:hasHealthValue       "0.649546980857849" ;
+        mo:hasFreedomValue      "0.309410035610199" ;
+        mo:hasGenerosityValue   "0.0540088154375553" ;
+        mo:hasTrustValue        "0.251666635274887" ;
+        mo:hasDystopiaValue     "1.50013780593872" .
+
+<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>
+        rdf:type                dbp:Country ;
+        dbp:name                "Democratic Republic of the Congo" ;
+        dbp:rank                126 ;
+        mo:hasHappinessValue    "4.28000020980835" ;
+        mo:hasWhiskerHighValue  "4.35781083270907" ;
+        mo:hasWhiskerLowValue   "4.20218958690763" ;
+        mo:hasEconomyValue      "0.0921023488044739" ;
+        mo:hasFamilyValue       "1.22902345657349" ;
+        mo:hasHealthValue       "0.191407024860382" ;
+        mo:hasFreedomValue      "0.235961347818375" ;
+        mo:hasGenerosityValue   "0.246455833315849" ;
+        mo:hasTrustValue        "0.0602413564920425" ;
+        mo:hasDystopiaValue     "2.22495865821838" .
+
+<http://dbpedia.org/resource/Mali>
+        rdf:type                dbp:Country ;
+        dbp:name                "Mali" ;
+        dbp:rank                127 ;
+        mo:hasHappinessValue    "4.19000005722046" ;
+        mo:hasWhiskerHighValue  "4.26967071101069" ;
+        mo:hasWhiskerLowValue   "4.11032940343022" ;
+        mo:hasEconomyValue      "0.476180493831635" ;
+        mo:hasFamilyValue       "1.28147339820862" ;
+        mo:hasHealthValue       "0.169365674257278" ;
+        mo:hasFreedomValue      "0.306613743305206" ;
+        mo:hasGenerosityValue   "0.183354198932648" ;
+        mo:hasTrustValue        "0.104970246553421" ;
+        mo:hasDystopiaValue     "1.66819095611572" .
+
+<http://dbpedia.org/resource/Ivory_Coast>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ivory Coast" ;
+        dbp:rank                128 ;
+        mo:hasHappinessValue    "4.17999982833862" ;
+        mo:hasWhiskerHighValue  "4.27518256321549" ;
+        mo:hasWhiskerLowValue   "4.08481709346175" ;
+        mo:hasEconomyValue      "0.603048920631409" ;
+        mo:hasFamilyValue       "0.904780030250549" ;
+        mo:hasHealthValue       "0.0486421696841717" ;
+        mo:hasFreedomValue      "0.447706192731857" ;
+        mo:hasGenerosityValue   "0.201237469911575" ;
+        mo:hasTrustValue        "0.130061775445938" ;
+        mo:hasDystopiaValue     "1.84496426582336" .
+
+<http://dbpedia.org/resource/Cambodia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Cambodia" ;
+        dbp:rank                129 ;
+        mo:hasHappinessValue    "4.16800022125244" ;
+        mo:hasWhiskerHighValue  "4.27851781353354" ;
+        mo:hasWhiskerLowValue   "4.05748262897134" ;
+        mo:hasEconomyValue      "0.601765096187592" ;
+        mo:hasFamilyValue       "1.00623834133148" ;
+        mo:hasHealthValue       "0.429783403873444" ;
+        mo:hasFreedomValue      "0.633375823497772" ;
+        mo:hasGenerosityValue   "0.385922968387604" ;
+        mo:hasTrustValue        "0.0681059509515762" ;
+        mo:hasDystopiaValue     "1.04294109344482" .
+
+<http://dbpedia.org/resource/Sudan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Sudan" ;
+        dbp:rank                130 ;
+        mo:hasHappinessValue    "4.13899993896484" ;
+        mo:hasWhiskerHighValue  "4.34574716508389" ;
+        mo:hasWhiskerLowValue   "3.9322527128458" ;
+        mo:hasEconomyValue      "0.65951669216156" ;
+        mo:hasFamilyValue       "1.21400856971741" ;
+        mo:hasHealthValue       "0.290920823812485" ;
+        mo:hasFreedomValue      "0.0149958552792668" ;
+        mo:hasGenerosityValue   "0.182317450642586" ;
+        mo:hasTrustValue        "0.089847519993782" ;
+        mo:hasDystopiaValue     "1.68706583976746" .
+
+<http://dbpedia.org/resource/Ghana>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ghana" ;
+        dbp:rank                131 ;
+        mo:hasHappinessValue    "4.11999988555908" ;
+        mo:hasWhiskerHighValue  "4.22270720854402" ;
+        mo:hasWhiskerLowValue   "4.01729256257415" ;
+        mo:hasEconomyValue      "0.667224824428558" ;
+        mo:hasFamilyValue       "0.873664736747742" ;
+        mo:hasHealthValue       "0.295637726783752" ;
+        mo:hasFreedomValue      "0.423026293516159" ;
+        mo:hasGenerosityValue   "0.256923943758011" ;
+        mo:hasTrustValue        "0.0253363698720932" ;
+        mo:hasDystopiaValue     "1.57786750793457" .
+
+<http://dbpedia.org/resource/Ukraine>
+        rdf:type                dbp:Country ;
+        dbp:name                "Ukraine" ;
+        dbp:rank                132 ;
+        mo:hasHappinessValue    "4.09600019454956" ;
+        mo:hasWhiskerHighValue  "4.18541010454297" ;
+        mo:hasWhiskerLowValue   "4.00659028455615" ;
+        mo:hasEconomyValue      "0.89465194940567" ;
+        mo:hasFamilyValue       "1.39453756809235" ;
+        mo:hasHealthValue       "0.575903952121735" ;
+        mo:hasFreedomValue      "0.122974775731564" ;
+        mo:hasGenerosityValue   "0.270061463117599" ;
+        mo:hasTrustValue        "0.0230294708162546" ;
+        mo:hasDystopiaValue     "0.814382314682007" .
+
+<http://dbpedia.org/resource/Uganda>
+        rdf:type                dbp:Country ;
+        dbp:name                "Uganda" ;
+        dbp:rank                133 ;
+        mo:hasHappinessValue    "4.08099985122681" ;
+        mo:hasWhiskerHighValue  "4.19579996705055" ;
+        mo:hasWhiskerLowValue   "3.96619973540306" ;
+        mo:hasEconomyValue      "0.381430715322495" ;
+        mo:hasFamilyValue       "1.12982773780823" ;
+        mo:hasHealthValue       "0.217632606625557" ;
+        mo:hasFreedomValue      "0.443185955286026" ;
+        mo:hasGenerosityValue   "0.325766056776047" ;
+        mo:hasTrustValue        "0.057069718837738" ;
+        mo:hasDystopiaValue     "1.526362657547" .
+
+<http://dbpedia.org/resource/Burkina_Faso>
+        rdf:type                dbp:Country ;
+        dbp:name                "Burkina Faso" ;
+        dbp:rank                134 ;
+        mo:hasHappinessValue    "4.03200006484985" ;
+        mo:hasWhiskerHighValue  "4.12405906438828" ;
+        mo:hasWhiskerLowValue   "3.93994106531143" ;
+        mo:hasEconomyValue      "0.3502277135849" ;
+        mo:hasFamilyValue       "1.04328000545502" ;
+        mo:hasHealthValue       "0.215844258666039" ;
+        mo:hasFreedomValue      "0.324367851018906" ;
+        mo:hasGenerosityValue   "0.250864684581757" ;
+        mo:hasTrustValue        "0.120328105986118" ;
+        mo:hasDystopiaValue     "1.72721290588379" .
+
+<http://dbpedia.org/resource/Niger>
+        rdf:type                dbp:Country ;
+        dbp:name                "Niger" ;
+        dbp:rank                135 ;
+        mo:hasHappinessValue    "4.02799987792969" ;
+        mo:hasWhiskerHighValue  "4.11194681972265" ;
+        mo:hasWhiskerLowValue   "3.94405293613672" ;
+        mo:hasEconomyValue      "0.161925330758095" ;
+        mo:hasFamilyValue       "0.993025004863739" ;
+        mo:hasHealthValue       "0.26850500702858" ;
+        mo:hasFreedomValue      "0.36365869641304" ;
+        mo:hasGenerosityValue   "0.228673845529556" ;
+        mo:hasTrustValue        "0.138572946190834" ;
+        mo:hasDystopiaValue     "1.87398338317871" .
+
+<http://dbpedia.org/resource/Malawi>
+        rdf:type                dbp:Country ;
+        dbp:name                "Malawi" ;
+        dbp:rank                136 ;
+        mo:hasHappinessValue    "3.97000002861023" ;
+        mo:hasWhiskerHighValue  "4.07747881740332" ;
+        mo:hasWhiskerLowValue   "3.86252123981714" ;
+        mo:hasEconomyValue      "0.233442038297653" ;
+        mo:hasFamilyValue       "0.512568831443787" ;
+        mo:hasHealthValue       "0.315089583396912" ;
+        mo:hasFreedomValue      "0.466914653778076" ;
+        mo:hasGenerosityValue   "0.287170469760895" ;
+        mo:hasTrustValue        "0.0727116540074348" ;
+        mo:hasDystopiaValue     "2.08178615570068" .
+
+<http://dbpedia.org/resource/Chad>
+        rdf:type                dbp:Country ;
+        dbp:name                "Chad" ;
+        dbp:rank                137 ;
+        mo:hasHappinessValue    "3.93600010871887" ;
+        mo:hasWhiskerHighValue  "4.0347115239501" ;
+        mo:hasWhiskerLowValue   "3.83728869348764" ;
+        mo:hasEconomyValue      "0.438012987375259" ;
+        mo:hasFamilyValue       "0.953855872154236" ;
+        mo:hasHealthValue       "0.0411347150802612" ;
+        mo:hasFreedomValue      "0.16234202682972" ;
+        mo:hasGenerosityValue   "0.216113850474358" ;
+        mo:hasTrustValue        "0.0535818822681904" ;
+        mo:hasDystopiaValue     "2.07123804092407" .
+
+<http://dbpedia.org/resource/Zimbabwe>
+        rdf:type                dbp:Country ;
+        dbp:name                "Zimbabwe" ;
+        dbp:rank                138 ;
+        mo:hasHappinessValue    "3.875" ;
+        mo:hasWhiskerHighValue  "3.97869964271784" ;
+        mo:hasWhiskerLowValue   "3.77130035728216" ;
+        mo:hasEconomyValue      "0.375846534967422" ;
+        mo:hasFamilyValue       "1.08309590816498" ;
+        mo:hasHealthValue       "0.196763753890991" ;
+        mo:hasFreedomValue      "0.336384207010269" ;
+        mo:hasGenerosityValue   "0.189143493771553" ;
+        mo:hasTrustValue        "0.0953753814101219" ;
+        mo:hasDystopiaValue     "1.59797024726868" .
+
+<http://dbpedia.org/resource/Lesotho>
+        rdf:type                dbp:Country ;
+        dbp:name                "Lesotho" ;
+        dbp:rank                139 ;
+        mo:hasHappinessValue    "3.80800008773804" ;
+        mo:hasWhiskerHighValue  "4.04434397548437" ;
+        mo:hasWhiskerLowValue   "3.5716561999917" ;
+        mo:hasEconomyValue      "0.521021246910095" ;
+        mo:hasFamilyValue       "1.19009518623352" ;
+        mo:hasHealthValue       "0" ;
+        mo:hasFreedomValue      "0.390661299228668" ;
+        mo:hasGenerosityValue   "0.157497271895409" ;
+        mo:hasTrustValue        "0.119094640016556" ;
+        mo:hasDystopiaValue     "1.42983531951904" .
+
+<http://dbpedia.org/resource/Angola>
+        rdf:type                dbp:Country ;
+        dbp:name                "Angola" ;
+        dbp:rank                140 ;
+        mo:hasHappinessValue    "3.79500007629395" ;
+        mo:hasWhiskerHighValue  "3.95164193540812" ;
+        mo:hasWhiskerLowValue   "3.63835821717978" ;
+        mo:hasEconomyValue      "0.858428180217743" ;
+        mo:hasFamilyValue       "1.10441195964813" ;
+        mo:hasHealthValue       "0.0498686656355858" ;
+        mo:hasFreedomValue      "0" ;
+        mo:hasGenerosityValue   "0.097926490008831" ;
+        mo:hasTrustValue        "0.0697203353047371" ;
+        mo:hasDystopiaValue     "1.61448240280151" .
+
+<http://dbpedia.org/resource/Afghanistan>
+        rdf:type                dbp:Country ;
+        dbp:name                "Afghanistan" ;
+        dbp:rank                141 ;
+        mo:hasHappinessValue    "3.79399991035461" ;
+        mo:hasWhiskerHighValue  "3.87366141527891" ;
+        mo:hasWhiskerLowValue   "3.71433840543032" ;
+        mo:hasEconomyValue      "0.401477217674255" ;
+        mo:hasFamilyValue       "0.581543326377869" ;
+        mo:hasHealthValue       "0.180746778845787" ;
+        mo:hasFreedomValue      "0.106179520487785" ;
+        mo:hasGenerosityValue   "0.311870932579041" ;
+        mo:hasTrustValue        "0.0611578300595284" ;
+        mo:hasDystopiaValue     "2.15080118179321" .
+
+<http://dbpedia.org/resource/Botswana>
+        rdf:type                dbp:Country ;
+        dbp:name                "Botswana" ;
+        dbp:rank                142 ;
+        mo:hasHappinessValue    "3.76600003242493" ;
+        mo:hasWhiskerHighValue  "3.87412266626954" ;
+        mo:hasWhiskerLowValue   "3.65787739858031" ;
+        mo:hasEconomyValue      "1.12209415435791" ;
+        mo:hasFamilyValue       "1.22155499458313" ;
+        mo:hasHealthValue       "0.341755509376526" ;
+        mo:hasFreedomValue      "0.505196332931519" ;
+        mo:hasGenerosityValue   "0.0993484482169151" ;
+        mo:hasTrustValue        "0.0985831990838051" ;
+        mo:hasDystopiaValue     "0.3779137134552" .
+
+<http://dbpedia.org/resource/Benin>
+        rdf:type                dbp:Country ;
+        dbp:name                "Benin" ;
+        dbp:rank                143 ;
+        mo:hasHappinessValue    "3.65700006484985" ;
+        mo:hasWhiskerHighValue  "3.74578355133533" ;
+        mo:hasWhiskerLowValue   "3.56821657836437" ;
+        mo:hasEconomyValue      "0.431085407733917" ;
+        mo:hasFamilyValue       "0.435299843549728" ;
+        mo:hasHealthValue       "0.209930211305618" ;
+        mo:hasFreedomValue      "0.425962775945663" ;
+        mo:hasGenerosityValue   "0.207948461174965" ;
+        mo:hasTrustValue        "0.0609290152788162" ;
+        mo:hasDystopiaValue     "1.88563096523285" .
+
+<http://dbpedia.org/resource/Madagascar>
+        rdf:type                dbp:Country ;
+        dbp:name                "Madagascar" ;
+        dbp:rank                144 ;
+        mo:hasHappinessValue    "3.64400005340576" ;
+        mo:hasWhiskerHighValue  "3.71431910589337" ;
+        mo:hasWhiskerLowValue   "3.57368100091815" ;
+        mo:hasEconomyValue      "0.305808693170547" ;
+        mo:hasFamilyValue       "0.913020372390747" ;
+        mo:hasHealthValue       "0.375223308801651" ;
+        mo:hasFreedomValue      "0.189196765422821" ;
+        mo:hasGenerosityValue   "0.208732530474663" ;
+        mo:hasTrustValue        "0.0672319754958153" ;
+        mo:hasDystopiaValue     "1.58461260795593" .
+
+<http://dbpedia.org/resource/Haiti>
+        rdf:type                dbp:Country ;
+        dbp:name                "Haiti" ;
+        dbp:rank                145 ;
+        mo:hasHappinessValue    "3.6029999256134" ;
+        mo:hasWhiskerHighValue  "3.73471479773521" ;
+        mo:hasWhiskerLowValue   "3.47128505349159" ;
+        mo:hasEconomyValue      "0.368610262870789" ;
+        mo:hasFamilyValue       "0.640449821949005" ;
+        mo:hasHealthValue       "0.277321130037308" ;
+        mo:hasFreedomValue      "0.0303698573261499" ;
+        mo:hasGenerosityValue   "0.489203780889511" ;
+        mo:hasTrustValue        "0.0998721495270729" ;
+        mo:hasDystopiaValue     "1.69716763496399" .
+
+<http://dbpedia.org/resource/Yemen>
+        rdf:type                dbp:Country ;
+        dbp:name                "Yemen" ;
+        dbp:rank                146 ;
+        mo:hasHappinessValue    "3.59299993515015" ;
+        mo:hasWhiskerHighValue  "3.69275031983852" ;
+        mo:hasWhiskerLowValue   "3.49324955046177" ;
+        mo:hasEconomyValue      "0.591683447360992" ;
+        mo:hasFamilyValue       "0.93538224697113" ;
+        mo:hasHealthValue       "0.310080915689468" ;
+        mo:hasFreedomValue      "0.249463722109795" ;
+        mo:hasGenerosityValue   "0.104125209152699" ;
+        mo:hasTrustValue        "0.0567674227058887" ;
+        mo:hasDystopiaValue     "1.34560060501099" .
+
+<http://dbpedia.org/resource/South_Sudan>
+        rdf:type                dbp:Country ;
+        dbp:name                "South Sudan" ;
+        dbp:rank                147 ;
+        mo:hasHappinessValue    "3.59100008010864" ;
+        mo:hasWhiskerHighValue  "3.72553858578205" ;
+        mo:hasWhiskerLowValue   "3.45646157443523" ;
+        mo:hasEconomyValue      "0.39724862575531" ;
+        mo:hasFamilyValue       "0.601323127746582" ;
+        mo:hasHealthValue       "0.163486003875732" ;
+        mo:hasFreedomValue      "0.147062435746193" ;
+        mo:hasGenerosityValue   "0.285670816898346" ;
+        mo:hasTrustValue        "0.116793513298035" ;
+        mo:hasDystopiaValue     "1.87956738471985" .
+
+<http://dbpedia.org/resource/Liberia>
+        rdf:type                dbp:Country ;
+        dbp:name                "Liberia" ;
+        dbp:rank                148 ;
+        mo:hasHappinessValue    "3.53299999237061" ;
+        mo:hasWhiskerHighValue  "3.65375626087189" ;
+        mo:hasWhiskerLowValue   "3.41224372386932" ;
+        mo:hasEconomyValue      "0.119041793048382" ;
+        mo:hasFamilyValue       "0.872117936611176" ;
+        mo:hasHealthValue       "0.229918196797371" ;
+        mo:hasFreedomValue      "0.332881182432175" ;
+        mo:hasGenerosityValue   "0.26654988527298" ;
+        mo:hasTrustValue        "0.0389482490718365" ;
+        mo:hasDystopiaValue     "1.67328596115112" .
+
+<http://dbpedia.org/resource/Guinea>
+        rdf:type                dbp:Country ;
+        dbp:name                "Guinea" ;
+        dbp:rank                149 ;
+        mo:hasHappinessValue    "3.50699996948242" ;
+        mo:hasWhiskerHighValue  "3.58442812889814" ;
+        mo:hasWhiskerLowValue   "3.4295718100667" ;
+        mo:hasEconomyValue      "0.244549930095673" ;
+        mo:hasFamilyValue       "0.791244685649872" ;
+        mo:hasHealthValue       "0.194129139184952" ;
+        mo:hasFreedomValue      "0.348587512969971" ;
+        mo:hasGenerosityValue   "0.264815092086792" ;
+        mo:hasTrustValue        "0.110937617719173" ;
+        mo:hasDystopiaValue     "1.55231189727783" .
+
+<http://dbpedia.org/resource/Togo>
+        rdf:type                dbp:Country ;
+        dbp:name                "Togo" ;
+        dbp:rank                150 ;
+        mo:hasHappinessValue    "3.49499988555908" ;
+        mo:hasWhiskerHighValue  "3.59403811171651" ;
+        mo:hasWhiskerLowValue   "3.39596165940166" ;
+        mo:hasEconomyValue      "0.305444717407227" ;
+        mo:hasFamilyValue       "0.431882530450821" ;
+        mo:hasHealthValue       "0.247105568647385" ;
+        mo:hasFreedomValue      "0.38042613863945" ;
+        mo:hasGenerosityValue   "0.196896150708199" ;
+        mo:hasTrustValue        "0.0956650152802467" ;
+        mo:hasDystopiaValue     "1.83722925186157" .
+
+<http://dbpedia.org/resource/Rwanda>
+        rdf:type                dbp:Country ;
+        dbp:name                "Rwanda" ;
+        dbp:rank                151 ;
+        mo:hasHappinessValue    "3.47099995613098" ;
+        mo:hasWhiskerHighValue  "3.54303023353219" ;
+        mo:hasWhiskerLowValue   "3.39896967872977" ;
+        mo:hasEconomyValue      "0.368745893239975" ;
+        mo:hasFamilyValue       "0.945707023143768" ;
+        mo:hasHealthValue       "0.326424807310104" ;
+        mo:hasFreedomValue      "0.581843852996826" ;
+        mo:hasGenerosityValue   "0.252756029367447" ;
+        mo:hasTrustValue        "0.455220013856888" ;
+        mo:hasDystopiaValue     "0.540061235427856" .
+
+<http://dbpedia.org/resource/Syria>
+        rdf:type                dbp:Country ;
+        dbp:name                "Syria" ;
+        dbp:rank                152 ;
+        mo:hasHappinessValue    "3.46199989318848" ;
+        mo:hasWhiskerHighValue  "3.66366855680943" ;
+        mo:hasWhiskerLowValue   "3.26033122956753" ;
+        mo:hasEconomyValue      "0.777153134346008" ;
+        mo:hasFamilyValue       "0.396102607250214" ;
+        mo:hasHealthValue       "0.50053334236145" ;
+        mo:hasFreedomValue      "0.0815394446253777" ;
+        mo:hasGenerosityValue   "0.493663728237152" ;
+        mo:hasTrustValue        "0.151347130537033" ;
+        mo:hasDystopiaValue     "1.06157350540161" .
+
+<http://dbpedia.org/resource/Tanzania>
+        rdf:type                dbp:Country ;
+        dbp:name                "Tanzania" ;
+        dbp:rank                153 ;
+        mo:hasHappinessValue    "3.34899997711182" ;
+        mo:hasWhiskerHighValue  "3.46142975538969" ;
+        mo:hasWhiskerLowValue   "3.23657019883394" ;
+        mo:hasEconomyValue      "0.511135876178741" ;
+        mo:hasFamilyValue       "1.04198980331421" ;
+        mo:hasHealthValue       "0.364509284496307" ;
+        mo:hasFreedomValue      "0.390017777681351" ;
+        mo:hasGenerosityValue   "0.354256361722946" ;
+        mo:hasTrustValue        "0.0660351067781448" ;
+        mo:hasDystopiaValue     "0.621130466461182" .
+
+<http://dbpedia.org/resource/Burundi>
+        rdf:type                dbp:Country ;
+        dbp:name                "Burundi" ;
+        dbp:rank                154 ;
+        mo:hasHappinessValue    "2.90499997138977" ;
+        mo:hasWhiskerHighValue  "3.07469033300877" ;
+        mo:hasWhiskerLowValue   "2.73530960977077" ;
+        mo:hasEconomyValue      "0.091622568666935" ;
+        mo:hasFamilyValue       "0.629793584346771" ;
+        mo:hasHealthValue       "0.151610791683197" ;
+        mo:hasFreedomValue      "0.0599007532000542" ;
+        mo:hasGenerosityValue   "0.204435184597969" ;
+        mo:hasTrustValue        "0.0841479450464249" ;
+        mo:hasDystopiaValue     "1.68302416801453" .
+
+<http://dbpedia.org/resource/Central_African_Republic>
+        rdf:type                dbp:Country ;
+        dbp:name                "Central African Republic" ;
+        dbp:rank                155 ;
+        mo:hasHappinessValue    "2.69300007820129" ;
+        mo:hasWhiskerHighValue  "2.86488426923752" ;
+        mo:hasWhiskerLowValue   "2.52111588716507" ;
+        mo:hasEconomyValue      "0" ;
+        mo:hasFamilyValue       "0" ;
+        mo:hasHealthValue       "0.0187726859003305" ;
+        mo:hasFreedomValue      "0.270842045545578" ;
+        mo:hasGenerosityValue   "0.280876487493515" ;
+        mo:hasTrustValue        "0.0565650761127472" ;
+        mo:hasDystopiaValue     "2.06600475311279" .
