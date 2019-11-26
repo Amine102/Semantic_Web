@@ -8,17 +8,23 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/location>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/E50_Date>
 PREFIX schema: <https://schema.org/GeoCoordinates>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-#PREFIX munc: <http://ns.inria.fr/munc/>
-SELECT ?country (AVG(?temperature) AS ?avg_temperature) ?year ?lex 
-WHERE {
+SELECT ?country (AVG(?temperature) AS ?avg_temperature) ?year ?lex
+WHERE 
+{
+{
   ?pays dbpedia-owl:locationCountry ?country;
         hto:Temperature ?temperature;
         crm: ?date;
    
   BIND(YEAR(xsd:date(?date)) AS ?year)
-  FILTER (1990<?year && ?year<2016).
+  FILTER (1990<=?year && ?year<2016)
+  FILTER (?country = 'France').
+}
+OPTIONAL {
   ?y owl:sameAs ?country;
-     dbpedia:Life_expectancy ?lex
-} 
-GROUP BY ?country ?year ?lex
-LIMIT 1
+     dbpedia:Life_expectancy ?lex;
+     dbpedia:Year ?yea;
+     FILTER(?year = xsd:integer(?yea))
+}
+}
+  Group by ?country ?avg_temperature ?year ?lex
