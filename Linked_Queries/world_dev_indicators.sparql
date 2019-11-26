@@ -1,0 +1,33 @@
+PREFIX dbpedia: <http://fr.dbpedia.org/page/>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbp: <http://www.dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX hto:  <http://vcharpenay.github.io/hto/hto.xml#Temperature>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/location>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/E50_Date>
+PREFIX schema: <https://schema.org/GeoCoordinates>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mo: <http://my_onto.org/>
+SELECT ?country ?happinessValue ?life_ex (max(?k) AS ?max_happiness) ?alcohol
+WHERE {
+{
+{
+  ?pays dbp:name ?country;
+        mo:hasHappinessValue ?happinessValue
+   
+}
+OPTIONAL {
+  ?y owl:sameAs ?country;
+     dbpedia:Life_expectancy ?life_ex;
+     dbpedia:Year ?yea;
+     dbpedia:Alcohol ?alcohol;
+     FILTER( 2015 = xsd:integer(?yea)).
+  }
+}
+OPTIONAL {
+	?p mo:hasHappinessValue ?k;
+}
+}
+  Group by ?country ?happinessValue ?life_ex ?max_happiness ?alcohol
+Order by DESC (?happinessValue)
