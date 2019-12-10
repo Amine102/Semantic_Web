@@ -1,0 +1,33 @@
+PREFIX dbpedia: <http://fr.dbpedia.org/page/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT distinct ?literal_country ?resource_country ?capital ?k ?currency
+WHERE
+{
+{
+    ?country owl:sameAs ?literal_country;
+          	 dbpedia:Year ?year;
+             dbpedia:Life_expectancy ?k
+            FILTER ( xsd:string(?year) = "2015")
+            FILTER ( contains(xsd:string(?year), "20"))
+  BIND(URI(strbefore(xsd:string(?country),"page")) AS ?uri1).
+  BIND(URI(concat(xsd:string(?uri1),"resource/")) AS ?uri2)
+  BIND(URI(concat(xsd:string(?uri2),?literal_country)) AS ?resource_country)
+}
+ optional
+    {
+      select ?capital ?resource_country ?currency
+      WHERE {
+          SERVICE <http://dbpedia.org/sparql>
+          {
+            SELECT ?capital ?resource_country ?currency
+            where {
+            	?resource_country	dbo:capital ?capital;
+                               		dbo:currency ?currency
+            }
+          }
+    	}
+    }
+}
