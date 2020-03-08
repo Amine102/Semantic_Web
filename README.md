@@ -47,7 +47,8 @@
   bash ntriples.sh 
   ```
   Ou 
-    ```Bash
+  
+ ```Bash
   bash turtle.sh 
   ```
 ## Test des requêtes
