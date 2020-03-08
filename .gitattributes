@@ -1,5 +1,5 @@
 *.java linguist-detectable=false
 *.sparql linguist-detectable=false
-*.cc linguist-language=C(name: "LISP", color: #abcdef)
+*.lisp linguist-language=C(name: "LISP", color: #abcdef)
 
 
