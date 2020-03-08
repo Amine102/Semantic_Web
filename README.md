@@ -46,7 +46,10 @@
   ```Bash
   bash ntriples.sh 
   ```
-  
+  Ou 
+    ```Bash
+  bash turtle.sh 
+  ```
 ## Test des requêtes
 
   - Dirigez-vous dans le fichier ou se trouve apache-jena;
