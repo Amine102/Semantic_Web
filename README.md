@@ -12,27 +12,48 @@
 ## Prérequis
   **Tarql**
   - Installez tarql (lien de téléchargement fournis en haut);
-  - Pour une utilisation plus simple de la commande tarql, allez dans le fichier ou se trouve les commandes unix (/usr/local/bin sur mac);
-  - Créez un fichier grâce à la commande suivante: touch tarql
-  - Modifiez les droits du fichier avec la commande suivante: chmod +x tarql
-  - Modifiez le fichier en mettant la commande suivante: sh /Users/chemin-se-trouvant-tarql/tarql-1.2/bin/tarql $1 $2 $3
+  - Pour une utilisation plus simple de la commande tarql, allez dans le fichier ou se trouve les commandes unix;
+  ```Bash
+  /usr/local/bin #sur mac
+  ```
+  - Créez un fichier grâce à la commande suivante: 
+  ```Bash
+  touch tarql
+  ```
+  - Modifiez les droits du fichier avec la commande suivante: 
+  ```Bash
+  chmod +x tarql
+  ```
+  - Modifiez le fichier en mettant la commande suivante: 
+  ```Bash
+  sh /Users/chemin-se-trouvant-tarql/tarql-1.2/bin/tarql $1 $2 $3
+  ```
   - Sauvegardez votre fichier 
   
   **Apache-jena**
   - Installez apache-jena (lien de téléchargement fournis en haut);
   - Ouvrez le fichier téléchargé
-  - Ouvrez un terminal et tapez la commande suivante: .fuseki-server
+  - Ouvrez un terminal et tapez la commande suivante: 
+  ```Bash
+  ./fuseki-server
+  ```
   - Ouvrez votre navigateur et mettez dans la barre de recherche localhost: suivi du numéro de port founi par le terminal (la plupart du temps 3030)[localhost:3030];
   - Explorez l'interface de Apache.
 ## Utilisation
 
   - Creation des fichiers .ttl ou .nt grâce aux commandes donnée dans le fichier /TARQL;
-  - Ouvrez un terminal et executez une des commandes suivantes: bash ntriples.sh OU bash ntriples.sh
+  - Ouvrez un terminal et executez une des commandes suivantes: 
+  ```Bash
+  bash ntriples.sh OU bash ntriples.sh
+  ```
   
 ## Test des requêtes
 
   - Dirigez-vous dans le fichier ou se trouve apache-jena;
-  - Tapez dans le terminal la commande suivante: ./fuseki-server
+  - Tapez dans le terminal la commande suivante:
+  ```Bash
+  ./fuseki-server
+  ```
   - Ouvrez un navigateur et tapez dans la barre de recherche: localhost:3030
   - Cliquez sur l'onglet Manage Datasets et créez une nouvelle dataset en cliquant sur "+";
   - Donnez un nom et charger le fichier turtle (.ttl) generé par le fichier mapping en cliquant sur upload dataset;
