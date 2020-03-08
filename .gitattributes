@@ -1,5 +1,5 @@
 *.java linguist-detectable=true
 *.sparql linguist-detectable=true
 *.owl linguist-detectable=true
-
+*.rdf linguist-detectable=true
 
