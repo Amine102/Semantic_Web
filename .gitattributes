@@ -1,5 +1,5 @@
 *.java linguist-detectable=false
-*.common-lis linguist-detectable=true
+*.LISP linguist-detectable=true
 *.js linguist-detectable=false
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
